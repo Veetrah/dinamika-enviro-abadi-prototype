@@ -47,7 +47,7 @@ Copy tidak menggunakan istilah seperti revolusioner, kelas dunia, terbaik, terde
 Copy disusun sebagai satu cerita yang bergerak dari kebutuhan menuju tindakan:
 
 1. Masalah atau kebutuhan lingkungan yang perlu ditangani dengan tepat.
-2. Posisi DEA sebagai konsultan yang bekerja berbasis kajian dan metode ilmiah.
+2. Posisi DEA sebagai konsultan yang bekerja secara profesional, memahami konteks kegiatan, dan mendampingi kebutuhan teknis lingkungan.
 3. Kelompok solusi yang relevan, dengan dokumen lingkungan serta pengelolaan limbah sebagai pintu masuk utama.
 4. Cara kerja yang membuat proses dapat dipahami dan ditelusuri.
 5. Konteks penerapan layanan tanpa mengarang portofolio atau klaim proyek.
@@ -71,12 +71,12 @@ Label dan section hanya dipakai jika kontennya tersedia saat implementasi.
 
 | Field | Isi | Status |
 | --- | --- | --- |
-| Category line | Solusi Lingkungan Berkelanjutan | DRAFT |
-| Headline | Dinamika Enviro Abadi | DRAFT |
-| Supporting copy | DEA mendampingi penyusunan dokumen, kepatuhan teknis, pengelolaan limbah, dan pemantauan lingkungan dengan pendekatan profesional berbasis sains. | DRAFT |
-| Focus line 1 | Dokumen dan kepatuhan teknis | DRAFT |
-| Focus line 2 | Limbah, emisi, dan pemantauan | DRAFT |
-| Focus line 3 | Pertambangan dan Waste-to-Energy | DRAFT |
+| Category line | Solusi Lingkungan Berkelanjutan | APPROVED |
+| Headline | Dinamika Enviro Abadi | APPROVED |
+| Supporting copy | DEA mendampingi kegiatan usaha dalam memahami dampak, memenuhi kewajiban, dan menjalankan pengelolaan lingkungan melalui pendekatan profesional berbasis sains. | APPROVED |
+| Focus line 1 | Kajian dan kepatuhan lingkungan | APPROVED |
+| Focus line 2 | Pengelolaan limbah, emisi, dan pemantauan | APPROVED |
+| Focus line 3 | Pendampingan teknis berkelanjutan | APPROVED |
 | Primary CTA | Lihat Layanan Kami | DRAFT |
 | Primary CTA target | `#services` | DRAFT |
 | Secondary CTA | Konsultasikan Kebutuhan | DRAFT |
@@ -84,14 +84,14 @@ Label dan section hanya dipakai jika kontennya tersedia saat implementasi.
 
 Catatan: copy disusun dari materi LinkedIn dan company profile pada `docs/MATERI.md`. Copy tetap berstatus draft sampai pemilik proyek menyetujui versi final.
 
-### 4.1 Section setelah Hero: Peran Dokumen Lingkungan
+### 4.1 Section setelah Hero: Konteks Pengelolaan Lingkungan
 
 | Field | Isi | Status |
 | --- | --- | --- |
-| Label | Dokumen Lingkungan | DRAFT |
-| Heading | Landasan pengelolaan dan kepatuhan lingkungan. | DRAFT |
-| Body copy | Dokumen lingkungan menjadi dasar bagi perusahaan dalam mengidentifikasi dampak, memenuhi ketentuan, serta menetapkan langkah pengelolaan dan pemantauan yang sesuai dengan karakteristik kegiatan usaha. | DRAFT |
-| Supporting copy | Penyusunan yang tepat memberikan arah yang jelas bagi pelaksanaan kewajiban lingkungan dan pengendalian dampak selama kegiatan berlangsung. | DRAFT |
+| Label | Tanggung Jawab Lingkungan | APPROVED |
+| Heading | Menjalankan usaha juga berarti mengelola dampak yang menyertainya. | APPROVED |
+| Body copy | Setiap kegiatan memiliki karakteristik, potensi dampak, dan kewajiban lingkungan yang berbeda. Di tengah kebutuhan operasional, pemilik usaha perlu menentukan langkah pengelolaan dan pemantauan yang sesuai dengan kondisi kegiatannya. | APPROVED |
+| Supporting copy | Tantangannya bukan sekadar memenuhi ketentuan, tetapi memastikan tanggung jawab lingkungan dapat dijalankan secara tepat tanpa kehilangan arah kegiatan usaha. | APPROVED |
 
 Catatan layout: section menjadi transisi editorial yang ringkas setelah hero. Heading dan copy disusun dalam dua kolom pada wide state dan satu kolom pada compact state, tanpa card, statistik, atau timeline.
 
@@ -99,12 +99,17 @@ Catatan layout: section menjadi transisi editorial yang ringkas setelah hero. He
 
 | Field | Isi | Status | Batas panjang |
 | --- | --- | --- | --- |
-| Section heading | `[NEEDED]` | NEEDED | 3 sampai 8 kata |
-| Intro paragraph | `[NEEDED]` | NEEDED | 50 sampai 90 kata |
-| Supporting paragraph | `[NEEDED]` | NEEDED | 40 sampai 80 kata |
-| Prinsip kerja | `[NEEDED]` | NEEDED | Hanya nilai yang nyata |
+| Section label | Tentang DEA | APPROVED | 2 sampai 4 kata |
+| Section heading | Pendampingan yang berangkat dari pemahaman. | APPROVED | 3 sampai 8 kata |
+| Intro paragraph | PT Dinamika Enviro Abadi adalah perusahaan konsultan lingkungan yang mendampingi kegiatan usaha dalam merencanakan dan menjalankan pengelolaan lingkungan. Setiap pekerjaan dimulai dengan memahami karakteristik kegiatan, potensi dampak, serta kewajiban yang menyertainya. Pemahaman tersebut kemudian menjadi dasar untuk menyusun langkah yang sesuai dengan kebutuhan operasional dan kondisi lingkungan di setiap kegiatan. | APPROVED | 50 sampai 90 kata |
+| Supporting paragraph | DEA menjalankan pendampingan dengan mengutamakan profesionalisme, integritas, dan pemahaman teknis terhadap setiap kegiatan. Dengan dukungan tim yang kompeten pada bidangnya, perusahaan membantu mitra mempertimbangkan aspek operasional dan tanggung jawab lingkungan agar langkah pengelolaan dapat diterapkan secara tepat sesuai kondisi kegiatan masing-masing. | APPROVED | 40 sampai 80 kata |
+| Prinsip kerja | Profesional, berintegritas, dan memahami konteks setiap kegiatan | APPROVED | Hanya nilai yang nyata |
 
 Tidak menambahkan jumlah proyek, tahun pengalaman, atau wilayah kerja tanpa sumber.
+
+Catatan layout: section memakai surface soft blue untuk membedakannya dari dua section pembuka yang dominan putih. Heading menjadi focal point, sedangkan dua paragraf disusun sebagai alur jawaban terhadap keresahan pemilik usaha. Prinsip kerja ditampilkan sebagai satu pernyataan, bukan deretan card.
+
+Catatan editorial: istilah `metode ilmiah` berasal dari company profile, tetapi tidak dipakai sebagai pesan utama About karena memberi kesan lembaga riset atau pengembangan. Copy menekankan pendampingan profesional, integritas, kompetensi, dan pemahaman terhadap konteks kegiatan.
 
 ## 6. Services
 
@@ -181,4 +186,8 @@ Metadata harus merangkum konten yang sudah disetujui. Jangan memasukkan layanan,
 | --- | --- | --- | --- |
 | `[YYYY-MM-DD]` | `[SECTION]` | `[APPROVED / REVISE]` | `[NAME]` |
 | 2026-11-04 | Identitas perusahaan | Nama resmi, nama pendek, dan legal name disetujui | Pemilik proyek |
+| 2026-11-05 | Konteks Pengelolaan Lingkungan | Framing direvisi agar pembuka tetap general; dokumen lingkungan dipindahkan ke section layanan | Pemilik proyek |
+| 2026-11-05 | Hero | Supporting copy dan daftar fokus direvisi agar pembuka general tanpa framing dokumen lingkungan | Pemilik proyek |
+| 2026-11-05 | Konteks Pengelolaan Lingkungan | Copy difokuskan pada keresahan pemilik usaha; DEA dan solusi dipindahkan ke section berikutnya | Pemilik proyek |
+| 2026-11-05 | About | Copy pendampingan, pemahaman teknis, dan prinsip kerja disetujui untuk dieksekusi pada prototype lokal | Pemilik proyek |
 

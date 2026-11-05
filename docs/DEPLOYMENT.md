@@ -6,6 +6,8 @@ Publish directory proyek adalah `site/`. Provider tidak boleh diarahkan ke root 
 
 ## 1. Deployment Goals
 
+- Selama fase development aktif, seluruh eksekusi dan QA dilakukan melalui local HTTP server.
+- GitHub hanya menyimpan riwayat versi dan bukan environment preview, staging, atau production.
 - Deployment dapat diulang tanpa langkah manual yang tidak terdokumentasi.
 - Setiap release dapat ditelusuri ke revision source tertentu.
 - Website dapat dikembalikan ke revision sebelumnya dengan cepat.
@@ -49,9 +51,11 @@ Keputusan provider dan alasan pemilihannya dicatat pada `docs/DECISIONS.md`.
 
 ### Local
 
+- Menjadi satu-satunya environment eksekusi selama fase development aktif.
 - Digunakan untuk development dan QA awal.
 - Tidak menerima data production.
 - Dijalankan melalui local HTTP server, bukan membuka file HTML langsung jika behavior URL perlu diuji.
+- Commit dan push ke GitHub hanya membuat checkpoint source; keduanya tidak memicu deployment.
 
 ### Preview / Staging
 

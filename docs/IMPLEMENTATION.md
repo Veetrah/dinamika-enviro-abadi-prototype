@@ -52,14 +52,25 @@ Rencana ini memecah eksekusi website PT Dinamika Enviro Abadi dengan konsep Blue
 | --- | --- | --- | --- | --- |
 | P2-01 | Header dan navigasi | P1-02, P1-04 | Semua link menuju section nyata | IN PROGRESS |
 | P2-02 | Hero | P1-03, P0-06 | Hierarchy jelas pada compact dan wide | IN PROGRESS |
-| P2-03 | About | P0-07 | Konten approved dan mudah dibaca | TODO |
-| P2-04 | Services | P0-02, P0-07 | Hierarchy mengikuti prioritas layanan | TODO |
-| P2-05 | Our Approach | P0-03 | Alur sesuai proses nyata | TODO |
-| P2-06 | Expertise | P0-04 | Hanya sektor yang sudah dikonfirmasi | TODO |
-| P2-07 | Contact dan Footer | P0-05, P0-07 | CTA dan informasi kontak berfungsi | TODO |
-| P2-08 | Metadata dan structured data | P0-09, P1-02 | Head metadata akurat dan JSON-LD hanya memakai data approved | TODO |
+| P2-03 | Konteks Pengelolaan Lingkungan | P1-02, P0-07 | Copy approved, hierarchy jelas, dan reflow stabil | DONE |
+| P2-04 | About | P0-07 | Konten approved dan mudah dibaca | DONE |
+| P2-05 | Services | P0-02, P0-07 | Hierarchy mengikuti prioritas layanan | TODO |
+| P2-06 | Our Approach | P0-03 | Alur sesuai proses nyata | TODO |
+| P2-07 | Expertise | P0-04 | Hanya sektor yang sudah dikonfirmasi | TODO |
+| P2-08 | Contact dan Footer | P0-05, P0-07 | CTA dan informasi kontak berfungsi | TODO |
+| P2-09 | Metadata dan structured data | P0-09, P1-02 | Head metadata akurat dan JSON-LD hanya memakai data approved | TODO |
 
 Catatan 2026-11-04: P2-01 dan P2-02 tetap `IN PROGRESS` karena navigasi dan section lanjutan belum dibangun. State header overlay, state header setelah scroll, hero 1280 x 720, serta reflow compact sampai wide sudah diverifikasi.
+
+Catatan 2026-11-05: framing awal P2-03 tentang dokumen lingkungan dibatalkan. Section selesai direvisi menjadi konteks pengelolaan lingkungan yang general; dokumen lingkungan baru difokuskan pada Services. Copy, hierarchy, reveal, header clearance, console, dan reflow 320 sampai 1440 px telah diverifikasi.
+
+Catatan 2026-11-05: supporting copy dan tiga fokus P2-02 juga direvisi agar framing hero tetap general. Kata `dokumen` tidak muncul pada hero maupun bridge; detail dokumen lingkungan ditunda sampai Services.
+
+Catatan 2026-11-05: P2-03 direvisi lagi agar hanya memuat keresahan pemilik usaha. Penyebutan DEA dan jawaban perusahaan dipindahkan ke P2-04 About. Copy baru, target anchor, reveal akhir, hierarchy, dan reflow 320 sampai 1440 px telah diverifikasi tanpa overflow atau collision.
+
+Catatan 2026-11-05: copy P2-04 About disusun sebagai `DRAFT` dari company profile dan materi yang diberikan pemilik proyek. Source belum diubah sampai heading, dua paragraf, dan prinsip kerja disetujui.
+
+Catatan 2026-11-05: P2-04 selesai dieksekusi setelah pengguna meminta visualisasi langsung di source. About memakai surface soft blue, heading editorial, dua blok narasi, dan satu pernyataan prinsip kerja. Reflow 320 sampai 1440 px, reveal akhir, anchor setelah halaman stabil, kontrol yang tersedia, dan console telah diverifikasi.
 
 ## Fase 3: Identitas dan Interaksi
 

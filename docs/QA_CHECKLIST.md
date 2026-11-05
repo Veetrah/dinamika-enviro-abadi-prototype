@@ -13,6 +13,8 @@ Evidence:
 
 ```text
 2026-11-04 Chrome in-app browser, http://127.0.0.1:4173, PASS untuk prototype hero tunggal. HTML, logo SVG, PNG hero, font WOFF2, CSS, dan JavaScript mengembalikan HTTP 200. Console tidak memiliki warning atau error.
+2026-11-05 Chrome in-app browser, http://127.0.0.1:4173, PASS untuk pembuka general dan section Konteks Pengelolaan Lingkungan. Hero tidak memusatkan pembuka pada dokumen lingkungan. Section setelah hero hanya memuat keresahan pemilik usaha dan tidak menyebut DEA, layanan, solusi, atau dokumen. Layout stabil pada 320 sampai 1440 px dan reveal mencapai state akhir.
+2026-11-05 Chrome in-app browser, http://127.0.0.1:4173/#about, PASS untuk section About. Copy sesuai materi approved, istilah `metode ilmiah` dan `berbasis sains` tidak muncul pada section, layout stabil pada 320 sampai 1440 px, reveal mencapai state akhir, dan console tidak memiliki warning atau error.
 ```
 
 ## 2. Content Integrity
@@ -49,9 +51,9 @@ Uji seluruh rentang, bukan hanya titik sampel.
 
 | State | Titik uji awal | Hasil | Catatan |
 | --- | --- | --- | --- |
-| Compact | 320, 360, 390, 430 px | PASS, spot check | 320 dan 390 px diperiksa; batas minimum body yang memicu overflow pada 320 px sudah dihapus |
-| Medium | 600, 768, 900 px | PASS, spot check | 768 px diperiksa; headline tidak masuk ke kolom visual; tidak ada horizontal overflow |
-| Wide | 1024, 1280, 1440, 1920 px | PASS, spot check | 1280 x 720 dan 1440 x 900 diperiksa; tiga zona terpisah tanpa collision |
+| Compact | 320, 360, 390, 430 px | PASS, spot check | 320 dan 390 px diperiksa; konteks dan About menjadi satu kolom, target anchor menempatkan label di bawah header, dan tidak ada overflow |
+| Medium | 600, 768, 900 px | PASS, spot check | 768 px diperiksa; About memisahkan label dan heading serta menyusun narasi dua kolom tanpa collision |
+| Wide | 1024, 1280, 1440, 1920 px | PASS, spot check | 1280 x 720 dan 1440 x 900 diperiksa; heading menjadi focal point dan dua blok narasi tetap terpisah tanpa overflow |
 
 - [x] Tidak ada horizontal overflow.
 - [x] Teks tidak keluar container.
@@ -93,6 +95,8 @@ Evidence prototype hero, 2026-11-04:
 
 ```text
 Headline, PNG hero, dan aksen kuning mencapai state akhir yang stabil saat masuk viewport. Surface header transparan pada posisi atas, lalu berubah putih dan ringkas setelah scroll. Reduced-motion fallback tersedia di source, tetapi emulasi preference browser belum dijalankan.
+Pada 2026-11-05, label, heading, dua paragraf, dan garis kuning section Konteks Pengelolaan Lingkungan mencapai state akhir satu kali tanpa loop atau scroll-jacking.
+Pada 2026-11-05, label, heading, dua blok narasi, prinsip kerja, dan garis kuning About mencapai state akhir satu kali tanpa loop atau scroll-jacking.
 ```
 
 ## 7. Media dan Performance Mechanisms

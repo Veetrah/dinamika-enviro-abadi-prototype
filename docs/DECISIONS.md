@@ -57,10 +57,11 @@ Catat keputusan yang memengaruhi scope, desain, arsitektur, atau operasional pro
 
 ### D-007: Version one scope
 
-- Status: `LOCKED`
+- Status: `SUPERSEDED`
 - Keputusan: Header, Hero, About, Services, Our Approach, Expertise, Contact, dan Footer.
 - Alasan: struktur ini cukup menjelaskan perusahaan tanpa memaksakan materi yang belum tersedia.
 - Dampak: peta proyek, selected projects, testimonials, insights, dan FAQ tidak masuk versi pertama.
+- Digantikan oleh: `D-033`
 
 ### D-008: Lightweight motion
 
@@ -255,6 +256,66 @@ Catat keputusan yang memengaruhi scope, desain, arsitektur, atau operasional pro
 - Keputusan: header diposisikan di atas hero tanpa mengambil ruang layout. Pada posisi awal surface header transparan. Setelah halaman mulai digulir, header menampilkan background putih, border bawah, dan tinggi yang lebih ringkas.
 - Alasan: bar header terpisah mengurangi ruang vertikal hero dan mendorong headline keluar dari viewport awal pada layar desktop yang pendek.
 - Dampak: hero memakai tinggi viewport penuh. State header dikelola dengan `IntersectionObserver` dan tetap menampilkan logo serta link yang dapat digunakan dengan keyboard.
+
+### D-032: Local-first execution and GitHub for version control
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: seluruh development, preview, dan QA proyek dijalankan pada environment lokal. GitHub hanya digunakan untuk version control dan penyimpanan checkpoint source.
+- Alasan: pengguna ingin proses eksekusi tetap terkendali di lokal dan memisahkan repository source dari environment hosting atau runtime.
+- Dampak: tidak ada GitHub Pages, GitHub Actions deployment, preview otomatis, atau integrasi hosting dari repository tanpa keputusan baru. Commit dan push dilakukan hanya ketika pengguna meminta checkpoint.
+
+### D-033: Environmental document role as narrative bridge
+
+- Status: `SUPERSEDED`
+- Tanggal: `2026-11-05`
+- Keputusan: versi pertama menambahkan section ringkas tentang peran dokumen lingkungan langsung setelah hero. Section memakai komposisi editorial dua kolom pada wide state dan satu kolom pada compact state, tanpa card, statistik, atau timeline.
+- Alasan: pengunjung perlu memahami fungsi dokumen lingkungan sebelum memasuki informasi perusahaan dan kelompok layanan, tetapi penjelasannya harus tetap singkat dan bernada konsultatif.
+- Dampak: alur utama menjadi Hero, Peran Dokumen Lingkungan, About, Services, Our Approach, Expertise, Contact, dan Footer. Copy section menggunakan materi berstatus `APPROVED` pada `docs/CONTENT.md`.
+- Menggantikan: scope struktur pada `D-007`
+- Digantikan oleh: `D-034`
+
+### D-034: General environmental context before services
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: section setelah hero membahas kebutuhan pengelolaan lingkungan secara umum. Istilah dan penjelasan khusus mengenai dokumen lingkungan baru menjadi fokus pada section layanan.
+- Alasan: pengguna tidak ingin pembuka halaman memberi kesan bahwa DEA hanya berfokus pada pengurusan dokumen.
+- Dampak: label, heading, dan copy bridge memakai framing pengelolaan lingkungan, dampak, kewajiban, pengendalian, dan pemantauan. Komposisi visual sederhana dari D-033 tetap dipertahankan.
+- Menggantikan: framing konten pada `D-033`
+
+### D-035: General opening before service detail
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: hero dan section bridge tidak menggunakan dokumen lingkungan sebagai framing utama. Pembuka membahas dampak, kewajiban, pengelolaan, limbah, pemantauan, dan pendampingan teknis secara umum; dokumen lingkungan baru dijelaskan pada section Services.
+- Alasan: pengguna ingin kesan awal DEA tetap luas dan tidak terlihat hanya menangani pengurusan dokumen.
+- Dampak: supporting copy dan daftar fokus hero direvisi. Category line dan headline perusahaan dari `D-030` tetap dipertahankan.
+
+### D-036: Owner concern before DEA introduction
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: section setelah hero berfokus pada keresahan pemilik usaha dalam menjalankan kegiatan operasional sekaligus memenuhi tanggung jawab lingkungan. Section tidak menyebut DEA, layanan, dokumen lingkungan, atau solusi.
+- Alasan: alur storytelling membutuhkan ruang bagi pengunjung untuk mengenali persoalannya terlebih dahulu sebelum DEA diperkenalkan sebagai pihak yang mendampingi.
+- Dampak: copy section memakai sudut pandang kebutuhan usaha. Section berikutnya akan menjadi About DEA dan menjawab keresahan tersebut melalui profesionalisme, integritas, kompetensi, serta metode ilmiah.
+
+### D-037: About avoids research-institution framing
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: section About tidak menggunakan istilah `metode ilmiah` sebagai prinsip atau pesan utama. Copy memusatkan posisi DEA pada pendampingan profesional, integritas, kompetensi, dan pemahaman teknis terhadap konteks setiap kegiatan.
+- Alasan: istilah `metode ilmiah` memberi kesan lembaga riset atau pengembangan, bukan konsultan yang mendampingi kebutuhan operasional perusahaan.
+- Dampak: supporting copy dan prinsip kerja About direvisi. Materi sumber tetap dicatat pada `docs/MATERI.md`, tetapi tidak diangkat sebagai framing utama website.
+- Menggantikan: bagian framing `metode ilmiah` pada dampak `D-036`
+
+### D-038: Editorial soft-blue About section
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: About memakai surface soft blue dengan heading sebagai focal point, dua blok narasi, dan satu pernyataan prinsip kerja. Section tidak memakai card, statistik, profil tim, atau foto placeholder tambahan.
+- Alasan: perubahan surface dan komposisi memisahkan jawaban DEA dari section keresahan sebelumnya tanpa menambah dekorasi atau klaim baru.
+- Dampak: layout compact tersusun satu kolom. Mulai medium state, label dan heading memakai dua zona, sedangkan intro dan supporting copy tersusun dua kolom. Motion dibatasi pada reveal satu kali mengikuti urutan baca.
 
 ## Decision Template
 

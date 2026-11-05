@@ -80,7 +80,7 @@ Interpretasi konsep untuk eksekusi:
 - Pendekatan: mobile-first dan responsif.
 - Motion: halus, singkat, dan punya fungsi.
 - Stack: HTML5, CSS3, dan vanilla JavaScript.
-- Struktur inti: Hero, About, Services, Our Approach, Expertise, Contact, Footer.
+- Struktur inti: Hero, Konteks Pengelolaan Lingkungan, About, Services, Our Approach, Expertise, Contact, Footer.
 - Tidak menggunakan login, database, CMS, framework aplikasi, GSAP, Three.js, atau library animasi berat untuk versi pertama.
 
 ### Sementara dan perlu divalidasi saat visual exploration
@@ -187,11 +187,12 @@ Hero dibangun dari tiga bagian yang mudah dipahami tanpa penjelasan konsep:
 Halaman dibangun sebagai satu alur cerita, bukan kumpulan section yang berdiri sendiri:
 
 1. Hero membuka konteks kebutuhan lingkungan yang ditangani DEA.
-2. About memperkenalkan posisi dan cara pandang perusahaan.
-3. Services mengubah kebutuhan tersebut menjadi kelompok solusi yang konkret.
-4. Our Approach menunjukkan bagaimana pekerjaan dijalankan secara sistematis.
-5. Expertise memberi konteks penerapan tanpa membuat klaim proyek yang belum disetujui.
-6. Contact menutup narasi dengan langkah berikutnya yang jelas.
+2. Konteks Pengelolaan Lingkungan mengangkat keresahan pemilik usaha dalam menjaga kegiatan operasional sekaligus menjalankan tanggung jawab lingkungan.
+3. About menjawab keresahan tersebut dengan memperkenalkan posisi, integritas, dan pendekatan DEA.
+4. Services mengubah kebutuhan tersebut menjadi kelompok solusi yang konkret.
+5. Our Approach menunjukkan bagaimana pekerjaan dijalankan secara sistematis.
+6. Expertise memberi konteks penerapan tanpa membuat klaim proyek yang belum disetujui.
+7. Contact menutup narasi dengan langkah berikutnya yang jelas.
 
 Transisi antarseksi memakai copy, ritme ruang, dan fotografi agar cerita terasa menyambung. Pendekatan ini mengambil disiplin layout dan storytelling ForestPro sebagai referensi, tetapi komposisi, warna, dan isi tetap khusus untuk DEA.
 
@@ -210,7 +211,7 @@ Tujuan: memberi akses cepat ke konten yang benar-benar ada.
 
 ### 7.2 Hero
 
-Tujuan: menjelaskan bahwa DEA menangani dokumen lingkungan, kepatuhan teknis, dan pengelolaan limbah, lalu memberi konteks bahwa layanan tersebut dijalankan melalui pendekatan konsultansi yang profesional.
+Tujuan: memposisikan DEA sebagai konsultan yang mendampingi pemahaman dampak, kepatuhan, pengelolaan limbah, dan pemantauan melalui pendekatan yang profesional.
 
 Komposisi desktop:
 
@@ -233,13 +234,25 @@ Copy referensi, belum final:
 >
 > **Dinamika Enviro Abadi**
 >
-> Mendampingi penyusunan dokumen, kepatuhan teknis, pengelolaan limbah, dan pemantauan lingkungan dengan pendekatan profesional berbasis sains.
+> Mendampingi kegiatan usaha dalam memahami dampak, memenuhi kewajiban, dan menjalankan pengelolaan lingkungan melalui pendekatan profesional berbasis sains.
 
-Nama perusahaan menjadi headline agar identitas DEA menjadi focal point yang tidak dapat ditukar dengan brand lain. Pemenggalan tiga baris mengikuti tiga kata pada nama perusahaan, bukan memotong slogan secara artifisial. Dokumen lingkungan tetap menjadi layanan penting, tetapi tidak dipakai sebagai satu-satunya framing pada hero.
+Nama perusahaan menjadi headline agar identitas DEA menjadi focal point yang tidak dapat ditukar dengan brand lain. Pemenggalan tiga baris mengikuti tiga kata pada nama perusahaan, bukan memotong slogan secara artifisial. Dokumen lingkungan tetap menjadi layanan penting, tetapi baru dibahas secara spesifik pada section Services.
 
 CTA referensi: **Lihat Layanan Kami** dan **Konsultasikan Kebutuhan**. Keduanya hanya dipakai jika memiliki tujuan yang aktif.
 
-### 7.3 About Us / Who We Are
+### 7.3 Konteks Pengelolaan Lingkungan
+
+Tujuan: membuat pemilik usaha mengenali ketegangan antara kebutuhan operasional dan tanggung jawab lingkungan sebelum halaman memperkenalkan DEA.
+
+- Komposisi editorial dua kolom pada wide state dan satu kolom pada compact state.
+- Hanya memuat label, heading, body copy, dan supporting copy yang telah disetujui.
+- Tidak memusatkan pembuka pada dokumen lingkungan; layanan tersebut dibahas secara spesifik pada section Services.
+- Tidak menyebut DEA, layanan, atau solusi karena section berikutnya bertugas menjawab keresahan ini melalui posisi perusahaan.
+- Garis kuning pendek menjadi penanda transisi dan tidak berkembang menjadi ornamen tambahan.
+- Tidak menggunakan card, statistik, ilustrasi dokumen, atau timeline.
+- Motion dibatasi pada reveal satu kali yang mengikuti arah baca.
+
+### 7.4 About Us / Who We Are
 
 Tujuan: membangun pemahaman dan kredibilitas melalui informasi perusahaan, bukan angka buatan.
 
@@ -249,7 +262,7 @@ Tujuan: membangun pemahaman dan kredibilitas melalui informasi perusahaan, bukan
 - Prinsip kerja ditampilkan hanya jika berasal dari nilai perusahaan yang nyata.
 - Tidak menampilkan jumlah proyek, tahun pengalaman, wilayah kerja, atau angka lain sebelum data terverifikasi tersedia.
 
-### 7.4 Our Services
+### 7.5 Our Services
 
 Tujuan: membuat layanan mudah dipindai dan dipahami.
 
@@ -269,7 +282,7 @@ Komposisi yang disarankan:
 4. Layanan Lingkungan Pertambangan.
 5. Solusi Berkelanjutan dan Waste-to-Energy.
 
-### 7.5 Our Approach
+### 7.6 Our Approach
 
 Tujuan: memperlihatkan bahwa pekerjaan dijalankan melalui proses yang sistematis.
 
@@ -281,7 +294,7 @@ Jangan memaksakan satu proses generik jika kelompok layanan memiliki alur yang b
 - Mobile menampilkan alur vertikal yang mengikuti arah scroll.
 - Animasi garis menunjukkan progres membaca, bukan mengunci atau mengambil alih scroll.
 
-### 7.6 Expertise / Sectors We Support
+### 7.7 Expertise / Sectors We Support
 
 Tujuan: menggantikan showcase proyek ketika materi portofolio belum cukup.
 
@@ -292,7 +305,7 @@ Tujuan: menggantikan showcase proyek ketika materi portofolio belum cukup.
 
 Section ini bersifat pendukung. Pengunjung harus memahami fokus layanan DEA sebelum membaca sektor yang dilayani.
 
-### 7.7 Contact
+### 7.8 Contact
 
 Tujuan: memberi jalur komunikasi yang langsung dan jelas.
 
@@ -302,7 +315,7 @@ Tujuan: memberi jalur komunikasi yang langsung dan jelas.
 - Alamat dan detail kontak hanya diisi dengan data nyata.
 - Tidak menggunakan form jika tidak ada backend atau proses penerimaan pesan yang jelas.
 
-### 7.8 Footer
+### 7.9 Footer
 
 - Logo atau nama perusahaan.
 - Navigasi singkat ke section yang tersedia.
@@ -453,7 +466,7 @@ Teknologi:
 
 ### Fase 3: Konten utama
 
-- Bangun About, Services, Approach, Expertise, Contact, dan Footer.
+- Bangun Konteks Pengelolaan Lingkungan, About, Services, Approach, Expertise, Contact, dan Footer.
 - Terapkan variasi komposisi sesuai kebutuhan tiap section.
 - Pastikan semua link dan CTA memiliki tujuan nyata.
 
