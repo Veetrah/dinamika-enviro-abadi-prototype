@@ -311,11 +311,48 @@ Catat keputusan yang memengaruhi scope, desain, arsitektur, atau operasional pro
 
 ### D-038: Editorial soft-blue About section
 
-- Status: `LOCKED`
+- Status: `SUPERSEDED`
 - Tanggal: `2026-11-05`
 - Keputusan: About memakai surface soft blue dengan heading sebagai focal point, dua blok narasi, dan satu pernyataan prinsip kerja. Section tidak memakai card, statistik, profil tim, atau foto placeholder tambahan.
 - Alasan: perubahan surface dan komposisi memisahkan jawaban DEA dari section keresahan sebelumnya tanpa menambah dekorasi atau klaim baru.
 - Dampak: layout compact tersusun satu kolom. Mulai medium state, label dan heading memakai dua zona, sedangkan intro dan supporting copy tersusun dua kolom. Motion dibatasi pada reveal satu kali mengikuti urutan baca.
+- Digantikan oleh: `D-040`
+
+### D-039: Scroll-driven opening chapters
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: pembuka halaman memakai loader singkat, progress line pada header, hero exit ringan, dan section keresahan dua tahap dengan sticky scroll pada wide viewport. Compact viewport tetap memakai normal flow.
+- Alasan: pengguna memilih ritme storytelling ForestPro sebagai acuan motion, tanpa menyalin identitas visual atau memakai scroll-jacking.
+- Dampak: implementasi tetap vanilla CSS dan JavaScript, menghormati `prefers-reduced-motion`, serta hanya menganimasikan opacity dan transform.
+- Catatan: tahap kedua section keresahan melanjutkan dua paragraf narasi utama; pola checklist generik tidak digunakan.
+- Catatan: reveal section bersifat reversible. State masuk diputar kembali ketika section kembali ke area baca, sedangkan Hero dan sticky chapter memiliki fase ease-out sebelum section berikutnya mengambil layar.
+
+### D-040: Two-scene About chapter
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: About menjadi satu chapter dengan dua scene berurutan: Tentang DEA dan Cara Kami Bekerja. Wide viewport memakai sticky scroll, sedangkan compact viewport tetap normal flow.
+- Alasan: komposisi sebelumnya terlalu padat dan pernyataan prinsip kerja terlalu generik. Pemisahan scene memberi ruang pada pengenalan perusahaan dan menjelaskan pendekatan kerja secara lebih konkret.
+- Dampak: scene pertama memakai heading dan intro ringkas. Scene kedua memakai tiga baris editorial yang muncul mengikuti progres scroll. Tidak memakai card, profil tim, atau klaim baru.
+
+### D-041: Editorial services index
+
+- Status: `SUPERSEDED`
+- Tanggal: `2026-11-05`
+- Keputusan: Services memakai hierarchy lima kelompok layanan LinkedIn. Wide viewport menampilkan intro sticky dan daftar layanan editorial yang bergerak normal; compact viewport memakai satu kolom tanpa card atau accordion.
+- Alasan: layanan perlu mudah dipindai tanpa mengulang pola full-screen sticky dari chapter sebelumnya. Struktur LinkedIn adalah materi paling aktual dan menempatkan dokumen lingkungan serta kepatuhan teknis sebagai prioritas.
+- Dampak: progress 01–05 mengikuti layanan aktif. Setiap baris masuk dan keluar secara reversible. Nama, urutan, dan copy layanan tetap berstatus `REVIEW` sampai diperiksa pengguna.
+- Digantikan oleh: `D-042`
+
+### D-042: Four service groups with waste management integrated
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: Services memakai empat kelompok: Dokumen Lingkungan; Kepatuhan dan Layanan Teknis Lingkungan; Pengelolaan Limbah dan Pemantauan Lingkungan; serta Layanan Lingkungan Pertambangan. Waste-to-Energy tidak menjadi layanan tersendiri.
+- Alasan: Waste-to-Energy terlalu spesifik untuk diposisikan sebagai kelompok layanan utama dan tidak tercantum pada company profile terbaru yang diberikan pemilik proyek. Aspek pengelolaan limbah lebih tepat ditempatkan di dalam layanan pengelolaan dan pemantauan.
+- Dampak: progress Services berubah menjadi 01–04. Istilah `Pengolahan Sampah menjadi Energi Listrik` dihapus dari website. Materi Waste-to-Energy tetap disimpan sebagai referensi internal dan baru dapat dipakai sebagai pengalaman proyek setelah dikonfirmasi.
+- Menggantikan: `D-041`
 
 ## Decision Template
 

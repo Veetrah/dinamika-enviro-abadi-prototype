@@ -9,7 +9,7 @@ Prinsip utama: **Simple technology. Premium execution.**
 
 ## 1. Ringkasan Konsep
 
-Blue Terrain adalah konsep visual landing page company profile PT Dinamika Enviro Abadi. Perusahaan diposisikan sebagai konsultan lingkungan dengan dua pintu masuk utama: dokumen lingkungan serta kepatuhan dan layanan teknis lingkungan, termasuk pengelolaan air limbah, emisi, dan limbah B3. Pengelolaan dan pemantauan lingkungan, layanan lingkungan pertambangan, serta Waste-to-Energy membentuk cakupan layanan yang lebih luas. Karakternya harus terasa kredibel, presisi, dan modern, bukan organisasi lingkungan generik yang penuh warna hijau, ikon daun, atau slogan kosong.
+Blue Terrain adalah konsep visual landing page company profile PT Dinamika Enviro Abadi. Perusahaan diposisikan sebagai konsultan lingkungan dengan cakupan dokumen lingkungan, kepatuhan dan layanan teknis, pengelolaan limbah dan pemantauan, serta kebutuhan lingkungan pertambangan. Karakternya harus terasa kredibel, presisi, dan modern, bukan organisasi lingkungan generik yang penuh warna hijau, ikon daun, atau slogan kosong.
 
 Identitas visual dibangun dari tiga warna utama:
 
@@ -71,7 +71,7 @@ Interpretasi konsep untuk eksekusi:
 - Nama konsep: **Blue Terrain**.
 - Nama publik perusahaan: **PT Dinamika Enviro Abadi**.
 - Jenis website: landing page company profile konsultan lingkungan.
-- Hierarchy layanan mengikuti materi LinkedIn terkini: Dokumen Lingkungan; Kepatuhan dan Layanan Teknis Lingkungan; Pengelolaan dan Pemantauan Lingkungan; Layanan Lingkungan Pertambangan; serta Solusi Berkelanjutan dan Waste-to-Energy.
+- Hierarchy layanan terdiri dari Dokumen Lingkungan; Kepatuhan dan Layanan Teknis Lingkungan; Pengelolaan Limbah dan Pemantauan Lingkungan; serta Layanan Lingkungan Pertambangan.
 - Dokumen lingkungan dan pengelolaan limbah tetap menjadi pintu masuk komunikasi utama pada versi pertama.
 - Warna utama: putih `#FFFFFF`.
 - Warna sekunder: navy `#336699`.
@@ -156,7 +156,7 @@ Untuk kepatuhan teknis dan pengelolaan limbah:
 - Gunakan foto fasilitas, kegiatan lapangan, pengambilan sampel, atau aktivitas teknis hanya jika asetnya nyata dan berizin.
 - Hindari ikon tempat sampah, simbol daur ulang berulang, tumpukan sampah dramatis, atau visual hijau yang membuat layanan terlihat seperti kampanye kebersihan umum.
 
-Pengelolaan dan pemantauan lingkungan, layanan lingkungan pertambangan, serta Waste-to-Energy hadir setelah dua pintu masuk utama. Perizinan, survei, pemetaan, kehutanan, dan konservasi dari materi lama tidak masuk hierarchy aktif sampai perusahaan menegaskan bahwa layanan tersebut masih dipasarkan.
+Pengelolaan limbah dan pemantauan lingkungan serta layanan lingkungan pertambangan hadir setelah dua pintu masuk utama. Waste-to-Energy tidak menjadi kelompok layanan tersendiri; pengalaman terkait baru dapat ditampilkan setelah cakupan pekerjaan dan izin publikasinya dikonfirmasi. Perizinan, survei, pemetaan, kehutanan, dan konservasi dari materi lama tidak masuk hierarchy aktif sampai perusahaan menegaskan bahwa layanan tersebut masih dipasarkan.
 
 ## 6. Signature Hero: Focused Editorial Composition
 
@@ -268,7 +268,7 @@ Tujuan: membuat layanan mudah dipindai dan dipahami.
 
 - Dokumen lingkungan serta kepatuhan dan layanan teknis lingkungan mendapatkan hierarchy paling kuat.
 - Pengelolaan limbah dibahas secara konkret di dalam layanan teknis, terutama limbah B3, air limbah, dan emisi sesuai materi yang disetujui.
-- Pengelolaan dan pemantauan, layanan lingkungan pertambangan, serta Waste-to-Energy disusun setelah dua kelompok utama.
+- Pengelolaan limbah dan pemantauan serta layanan lingkungan pertambangan disusun setelah dua kelompok awal.
 - Perizinan, survei, pemetaan, kehutanan, dan konservasi dari materi lama tidak ditampilkan sebagai kelompok utama tanpa konfirmasi baru.
 - Kartu tidak wajib seragam jika bobot layanan berbeda.
 - Interaksi desktop dapat memakai pergeseran kecil dan perubahan border.
@@ -278,9 +278,8 @@ Komposisi yang disarankan:
 
 1. Dokumen Lingkungan.
 2. Kepatuhan dan Layanan Teknis Lingkungan.
-3. Pengelolaan dan Pemantauan Lingkungan.
+3. Pengelolaan Limbah dan Pemantauan Lingkungan.
 4. Layanan Lingkungan Pertambangan.
-5. Solusi Berkelanjutan dan Waste-to-Energy.
 
 ### 7.6 Our Approach
 
@@ -340,7 +339,7 @@ Section tersebut dapat ditambahkan pada fase berikutnya setelah materi nyata ter
 
 | Kondisi | Pendekatan |
 | --- | --- |
-| Foto proyek minim | Prioritaskan satu foto kegiatan dokumen lingkungan, pemantauan air limbah atau emisi, pengelolaan limbah B3, pertambangan, atau Waste-to-Energy yang relevan dan berizin |
+| Foto proyek minim | Prioritaskan satu foto kegiatan dokumen lingkungan, pemantauan air limbah atau emisi, pengelolaan limbah B3, pertambangan, atau kerja lapangan lain yang relevan dan berizin |
 | Tidak ada foto yang layak | Gunakan cutout ilustratif berwajah anonim dengan caption yang menegaskan bahwa visual bukan dokumentasi tim atau proyek DEA |
 | Belum ada portofolio | Fokus pada layanan, metode kerja, dan sektor nyata |
 | Deskripsi perusahaan singkat | Gunakan layout editorial dan whitespace, bukan menambah copy kosong |
@@ -523,11 +522,11 @@ Website dianggap siap diserahkan ketika:
 
 1. Apa nama resmi perusahaan dan apakah logo final sudah tersedia?
 2. Apa satu kalimat positioning perusahaan?
-3. Apakah urutan lima kelompok layanan dari LinkedIn sudah sesuai prioritas komersial perusahaan?
+3. Apakah urutan empat kelompok layanan sudah sesuai prioritas komersial perusahaan?
 4. Bagaimana urutan proses kerja yang sebenarnya?
 5. Sektor apa saja yang benar-benar dilayani?
 6. Kanal kontak utama apa yang harus menjadi CTA?
-7. Apakah tersedia foto asli kegiatan penyusunan dokumen, pengelolaan limbah, pemantauan, pertambangan, Waste-to-Energy, atau kerja lapangan yang memiliki izin publikasi?
+7. Apakah tersedia foto asli kegiatan penyusunan dokumen, pengelolaan limbah, pemantauan, pertambangan, atau kerja lapangan yang memiliki izin publikasi?
 8. Apakah perusahaan sudah memiliki warna atau typeface resmi?
 9. Bahasa website hanya Indonesia atau membutuhkan versi Inggris?
 10. Apakah website akan dipasang pada domain dan hosting yang sudah ada?

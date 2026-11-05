@@ -38,7 +38,7 @@ Belum ada keputusan slogan mana yang akan dipakai pada website baru. Klaim seper
 
 Menurut LinkedIn resminya, PT Dinamika Enviro Abadi adalah perusahaan konsultan lingkungan yang menawarkan solusi profesional, berbasis sains, dan terpadu. Materi company profile menambahkan penekanan pada integritas, metode ilmiah, serta keseimbangan aspek ekonomi, lingkungan, dan sosial.
 
-Materi LinkedIn terkini menempatkan dokumen lingkungan, kepatuhan dan layanan teknis, pengelolaan dan pemantauan, layanan lingkungan pertambangan, serta solusi Waste-to-Energy sebagai kelompok pekerjaan utama. Pengelolaan limbah muncul secara konkret melalui limbah B3, air limbah, emisi, dan pengolahan sampah menjadi energi.
+Materi LinkedIn terkini menempatkan dokumen lingkungan, kepatuhan dan layanan teknis, pengelolaan dan pemantauan, layanan lingkungan pertambangan, serta solusi Waste-to-Energy sebagai kelompok pekerjaan. Pengelolaan limbah muncul secara konkret melalui limbah B3, air limbah, emisi, dan keterlibatan pada proyek Waste-to-Energy. Setelah ditinjau bersama pemilik proyek, Waste-to-Energy tidak diposisikan sebagai layanan tersendiri pada website karena cakupannya terlalu spesifik dan tidak tercantum pada company profile terbaru.
 
 LinkedIn juga menyebut cakupan pekerjaan di berbagai wilayah Indonesia. Klaim cakupan nasional tetap perlu dikonfirmasi sebelum masuk ke copy final.
 
@@ -84,7 +84,7 @@ Jasa identifikasi dan pemantauan sumber daya alam, perencanaan serta pelaksanaan
 
 ## 6. Cakupan Layanan Utama dari LinkedIn
 
-LinkedIn perusahaan memuat struktur layanan yang lebih aktual dan lebih luas daripada company profile dan website lama. Lima kelompok berikut menjadi dasar hierarchy layanan pada desain, dengan status `REVIEW` sampai disetujui pemilik proyek.
+LinkedIn perusahaan memuat struktur layanan yang lebih aktual dan lebih luas daripada company profile dan website lama. Lima kelompok berikut disimpan sebagai catatan sumber. Struktur website memakai empat kelompok layanan setelah pengelolaan limbah ditempatkan bersama pengelolaan dan pemantauan, sedangkan Waste-to-Energy diperlakukan sebagai pengalaman spesifik yang masih memerlukan konfirmasi.
 
 ### Dokumen Lingkungan
 
@@ -124,6 +124,8 @@ LinkedIn perusahaan memuat struktur layanan yang lebih aktual dan lebih luas dar
 ### Solusi Berkelanjutan dan Waste-to-Energy
 
 LinkedIn menyebut keterlibatan perusahaan dalam pengembangan Waste-to-Energy atau Pengolahan Sampah menjadi Energi Listrik. Salah satu unggahan menyebut penanganan AMDAL untuk kegiatan di Bekasi, Bali, dan Bogor. Informasi proyek dan lokasi tersebut perlu disetujui sebelum ditampilkan pada website.
+
+Catatan editorial 5 November 2026: materi ini tetap disimpan sebagai rekam sumber, tetapi tidak menjadi kelompok layanan atau klaim publik pada website versi pertama. Pemeriksaan halaman LinkedIn publik pada tanggal yang sama juga tidak menemukan penyebutan IUJP atau Izin Usaha Jasa Pertambangan. Layanan lingkungan pertambangan tidak boleh ditafsirkan sebagai kepemilikan atau pengurusan IUJP tanpa materi resmi tambahan.
 
 ## 7. Data Proyek dari Company Profile
 
@@ -192,7 +194,7 @@ LinkedIn dan website lama menampilkan alamat yang berbeda. Plaza Kuningan menjad
 | Topik | Perbedaan | Keputusan yang Dibutuhkan |
 | --- | --- | --- |
 | Slogan | Website dan LinkedIn memakai beberapa slogan berbeda | Pilih satu slogan utama atau tidak memakai slogan |
-| Cakupan layanan | Company profile memuat lima layanan lama, LinkedIn memuat lima kelompok layanan yang lebih aktual | Pakai hierarchy LinkedIn sebagai struktur kerja dan minta persetujuan final |
+| Cakupan layanan | Company profile memuat lima layanan lama, sedangkan LinkedIn memuat lima kelompok yang lebih aktual termasuk Waste-to-Energy | Pakai empat kelompok layanan yang telah ditinjau pemilik proyek; simpan Waste-to-Energy sebagai materi pengalaman yang perlu konfirmasi |
 | Jumlah klien | Website menyebut 23+ klien, LinkedIn menyebut 50+ perusahaan, company profile memberi angka per layanan | Tentukan angka terbaru, definisi, dan periodenya |
 | Jumlah proyek | Website menyebut 23+ proyek, company profile memberi angka per kategori | Tentukan apakah angka menunjukkan klien, proyek, atau pekerjaan |
 | Alamat | Website memakai Jl. Biak, LinkedIn memakai Plaza Kuningan | Tentukan alamat legal dan alamat operasional yang dipublikasikan |
@@ -207,13 +209,13 @@ LinkedIn dan website lama menampilkan alamat yang berbeda. Plaza Kuningan menjad
 - Profil dasar gabungan LinkedIn dan company profile
 - Visi
 - Misi
-- Lima kelompok layanan dari LinkedIn sebagai struktur kerja berstatus `REVIEW`
+- Empat kelompok layanan hasil peninjauan materi LinkedIn berstatus `REVIEW`
 - Lima kelompok data proyek dari company profile
 
 ### Masih perlu konfirmasi
 
 - Slogan utama
-- Persetujuan final nama, deskripsi, dan prioritas lima kelompok layanan LinkedIn
+- Persetujuan final nama, deskripsi, dan prioritas empat kelompok layanan
 - Angka klien dan proyek yang akan dipublikasikan
 - Periode serta definisi setiap angka
 - Alamat dan kanal kontak aktif
@@ -223,6 +225,6 @@ LinkedIn dan website lama menampilkan alamat yang berbeda. Plaza Kuningan menjad
 
 ## 14. Ringkasan Kerja
 
-PT Dinamika Enviro Abadi bergerak dalam konsultansi lingkungan. Berdasarkan LinkedIn terkini, hierarchy layanan aktif terdiri dari Dokumen Lingkungan; Kepatuhan dan Layanan Teknis Lingkungan; Pengelolaan dan Pemantauan Lingkungan; Layanan Lingkungan Pertambangan; serta Solusi Berkelanjutan dan Waste-to-Energy. Fokus pada limbah hadir melalui limbah B3, air limbah, emisi, serta pengolahan sampah menjadi energi. Company profile tetap memberi dasar untuk visi, misi, dan data proyek historis.
+PT Dinamika Enviro Abadi bergerak dalam konsultansi lingkungan. Struktur kerja website terdiri dari Dokumen Lingkungan; Kepatuhan dan Layanan Teknis Lingkungan; Pengelolaan Limbah dan Pemantauan Lingkungan; serta Layanan Lingkungan Pertambangan. Informasi Waste-to-Energy dari LinkedIn disimpan sebagai pengalaman spesifik yang belum dipakai sebagai layanan atau klaim publik. Company profile tetap memberi dasar untuk visi, misi, dan data proyek historis.
 
 Sebelum materi dipindahkan ke website baru, perusahaan perlu menyetujui deskripsi layanan, angka proyek, alamat, dan slogan. LinkedIn menjadi titik cek pertama untuk kondisi terkini, tetapi persetujuan perusahaan tetap menjadi gerbang terakhir sebelum publikasi. Profil anggota tim tidak masuk scope website; kredibilitas dibangun melalui storytelling perusahaan, layanan, proses, dan bukti yang disetujui.

@@ -15,6 +15,7 @@ Evidence:
 2026-11-04 Chrome in-app browser, http://127.0.0.1:4173, PASS untuk prototype hero tunggal. HTML, logo SVG, PNG hero, font WOFF2, CSS, dan JavaScript mengembalikan HTTP 200. Console tidak memiliki warning atau error.
 2026-11-05 Chrome in-app browser, http://127.0.0.1:4173, PASS untuk pembuka general dan section Konteks Pengelolaan Lingkungan. Hero tidak memusatkan pembuka pada dokumen lingkungan. Section setelah hero hanya memuat keresahan pemilik usaha dan tidak menyebut DEA, layanan, solusi, atau dokumen. Layout stabil pada 320 sampai 1440 px dan reveal mencapai state akhir.
 2026-11-05 Chrome in-app browser, http://127.0.0.1:4173/#about, PASS untuk section About. Copy sesuai materi approved, istilah `metode ilmiah` dan `berbasis sains` tidak muncul pada section, layout stabil pada 320 sampai 1440 px, reveal mencapai state akhir, dan console tidak memiliki warning atau error.
+2026-11-05 Chrome in-app browser, http://127.0.0.1:4174/#services, PASS untuk revisi Services. Empat layanan dan progress 01–04 tampil sesuai urutan, Waste-to-Energy tidak muncul pada konten publik, console bersih, dan tidak ada horizontal overflow.
 ```
 
 ## 2. Content Integrity
@@ -51,9 +52,9 @@ Uji seluruh rentang, bukan hanya titik sampel.
 
 | State | Titik uji awal | Hasil | Catatan |
 | --- | --- | --- | --- |
-| Compact | 320, 360, 390, 430 px | PASS, spot check | 320 dan 390 px diperiksa; konteks dan About menjadi satu kolom, target anchor menempatkan label di bawah header, dan tidak ada overflow |
+| Compact | 320, 360, 390, 430 px | PASS, spot check | 320 dan 390 px diperiksa; konteks, About, dan Services menjadi satu kolom, target anchor menempatkan label di bawah header, dan tidak ada overflow |
 | Medium | 600, 768, 900 px | PASS, spot check | 768 px diperiksa; About memisahkan label dan heading serta menyusun narasi dua kolom tanpa collision |
-| Wide | 1024, 1280, 1440, 1920 px | PASS, spot check | 1280 x 720 dan 1440 x 900 diperiksa; heading menjadi focal point dan dua blok narasi tetap terpisah tanpa overflow |
+| Wide | 1024, 1280, 1440, 1920 px | PASS, spot check | 1280 x 720 dan 1440 x 900 diperiksa; heading menjadi focal point, Services memakai intro sticky dan progress aktif, serta tidak ada overflow |
 
 - [x] Tidak ada horizontal overflow.
 - [x] Teks tidak keluar container.
@@ -97,6 +98,11 @@ Evidence prototype hero, 2026-11-04:
 Headline, PNG hero, dan aksen kuning mencapai state akhir yang stabil saat masuk viewport. Surface header transparan pada posisi atas, lalu berubah putih dan ringkas setelah scroll. Reduced-motion fallback tersedia di source, tetapi emulasi preference browser belum dijalankan.
 Pada 2026-11-05, label, heading, dua paragraf, dan garis kuning section Konteks Pengelolaan Lingkungan mencapai state akhir satu kali tanpa loop atau scroll-jacking.
 Pada 2026-11-05, label, heading, dua blok narasi, prinsip kerja, dan garis kuning About mencapai state akhir satu kali tanpa loop atau scroll-jacking.
+Pada 2026-11-05, loader, progress line header, hero exit, serta pergantian dua tahap pada sticky section keresahan berjalan pada wide viewport. Console tidak memiliki warning atau error. Compact dan emulasi reduced-motion belum diuji ulang.
+Pada 2026-11-05, About memakai masked heading reveal dan stagger narasi tanpa perubahan layout. State akhir wide viewport terbaca lengkap dan console bersih.
+Pada 2026-11-05, About dua scene diverifikasi pada wide dan compact. Wide mengganti Tentang DEA menjadi Cara Kami Bekerja dan membuka tahap 01–03 sesuai progres scroll. Compact memakai normal flow dengan `scrollWidth` sama dengan `clientWidth`; console bersih. Emulasi reduced-motion khusus masih tertunda.
+Pada 2026-11-05, audit seluruh motion memverifikasi Hero handoff, entrance dan dua scene Tanggung Jawab, entrance dan scene About, exit phase, serta reverse scroll. Reveal diputar kembali setelah section keluar lalu masuk viewport. Compact tetap tanpa horizontal overflow dan console bersih.
+Pada 2026-11-05, Services dengan empat kelompok diverifikasi pada wide dan compact. Progress bergerak dari 01–04 sesuai layanan aktif, item berikutnya masuk tanpa jeda kosong, dan dua ukuran viewport tidak mengalami horizontal overflow.
 ```
 
 ## 7. Media dan Performance Mechanisms

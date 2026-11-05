@@ -54,7 +54,7 @@ Rencana ini memecah eksekusi website PT Dinamika Enviro Abadi dengan konsep Blue
 | P2-02 | Hero | P1-03, P0-06 | Hierarchy jelas pada compact dan wide | IN PROGRESS |
 | P2-03 | Konteks Pengelolaan Lingkungan | P1-02, P0-07 | Copy approved, hierarchy jelas, dan reflow stabil | DONE |
 | P2-04 | About | P0-07 | Konten approved dan mudah dibaca | DONE |
-| P2-05 | Services | P0-02, P0-07 | Hierarchy mengikuti prioritas layanan | TODO |
+| P2-05 | Services | P0-02, P0-07 | Hierarchy mengikuti prioritas layanan | IN PROGRESS |
 | P2-06 | Our Approach | P0-03 | Alur sesuai proses nyata | TODO |
 | P2-07 | Expertise | P0-04 | Hanya sektor yang sudah dikonfirmasi | TODO |
 | P2-08 | Contact dan Footer | P0-05, P0-07 | CTA dan informasi kontak berfungsi | TODO |
@@ -68,6 +68,18 @@ Catatan 2026-11-05: supporting copy dan tiga fokus P2-02 juga direvisi agar fram
 
 Catatan 2026-11-05: P2-03 direvisi lagi agar hanya memuat keresahan pemilik usaha. Penyebutan DEA dan jawaban perusahaan dipindahkan ke P2-04 About. Copy baru, target anchor, reveal akhir, hierarchy, dan reflow 320 sampai 1440 px telah diverifikasi tanpa overflow atau collision.
 
+Catatan 2026-11-05: motion pembuka mulai memakai pola chapter scroll. Loader, progress line header, hero exit, dan sticky dua tahap pada section keresahan telah diterapkan dan diverifikasi pada wide viewport. QA compact dan reduced-motion tetap diperlukan sebelum P3-04/P3-06 dinyatakan selesai.
+
+Catatan 2026-11-05: motion About dirapikan tanpa mengubah layout. Urutannya kini line draw, label, masked heading reveal, intro, supporting copy, lalu prinsip kerja. Wide viewport dan console telah diverifikasi; compact serta reduced-motion masih menunggu QA menyeluruh.
+
+Catatan 2026-11-05: implementasi About sebelumnya diganti oleh chapter dua scene. Tentang DEA tampil lebih ringkas, kemudian berganti menjadi Cara Kami Bekerja dengan tiga tahap editorial. Wide memakai sticky progress; compact dan reduced-motion memakai normal flow.
+
+Catatan 2026-11-05: audit motion memperbaiki observer satu-kali menjadi reversible, memindahkan trigger reveal ke area baca, memperkuat Hero exit, serta menambahkan exit phase pada section Tanggung Jawab dan About. Wide, compact, reverse scroll, overflow, dan console telah diverifikasi.
+
+Catatan 2026-11-05: P2-05 Services mulai dieksekusi memakai empat kelompok layanan berstatus REVIEW. Waste-to-Energy tidak menjadi layanan tersendiri; pengelolaan limbah dipusatkan pada kelompok Pengelolaan Limbah dan Pemantauan Lingkungan. Layout memakai intro sticky dan daftar editorial dengan progress aktif; pemeriksaan copy akhir masih diperlukan sebelum status DONE.
+
+Catatan 2026-11-05: revisi P2-05 diverifikasi pada wide 1280 x 720 dan compact 390 x 844. Progress 01–04, transisi layanan, reflow satu kolom, dan console lulus; tidak ada horizontal overflow. Task tetap `IN PROGRESS` sampai copy akhir diperiksa pemilik proyek.
+
 Catatan 2026-11-05: copy P2-04 About disusun sebagai `DRAFT` dari company profile dan materi yang diberikan pemilik proyek. Source belum diubah sampai heading, dua paragraf, dan prinsip kerja disetujui.
 
 Catatan 2026-11-05: P2-04 selesai dieksekusi setelah pengguna meminta visualisasi langsung di source. About memakai surface soft blue, heading editorial, dua blok narasi, dan satu pernyataan prinsip kerja. Reflow 320 sampai 1440 px, reveal akhir, anchor setelah halaman stabil, kontrol yang tersedia, dan console telah diverifikasi.
@@ -79,9 +91,9 @@ Catatan 2026-11-05: P2-04 selesai dieksekusi setelah pengguna meminta visualisas
 | P3-01 | Implementasikan signature hero dan aksen kuning | P2-01 sampai P2-07 | Visual terpilih konsisten dan tidak berlebihan | IN PROGRESS |
 | P3-02 | Mobile menu | P2-01 | Buka, tutup, Escape, focus, dan state ARIA benar | TODO |
 | P3-03 | Active navigation | P2-01 | State aktif sesuai section dan tidak mengganggu keyboard | TODO |
-| P3-04 | Scroll reveal | P2-02 sampai P2-07 | Hanya elemen terpilih bergerak | TODO |
+| P3-04 | Scroll reveal | P2-02 sampai P2-07 | Hanya elemen terpilih bergerak | IN PROGRESS |
 | P3-05 | Approach line progress | P2-05, P3-01 | Horizontal di wide dan vertikal di compact | TODO |
-| P3-06 | Reduced motion | P3-04, P3-05 | Konten tetap lengkap tanpa motion | TODO |
+| P3-06 | Reduced motion | P3-04, P3-05 | Konten tetap lengkap tanpa motion | IN PROGRESS |
 
 ## Fase 4: Responsive dan Kualitas
 

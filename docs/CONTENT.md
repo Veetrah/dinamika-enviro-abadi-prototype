@@ -100,14 +100,17 @@ Catatan layout: section menjadi transisi editorial yang ringkas setelah hero. He
 | Field | Isi | Status | Batas panjang |
 | --- | --- | --- | --- |
 | Section label | Tentang DEA | APPROVED | 2 sampai 4 kata |
-| Section heading | Pendampingan yang berangkat dari pemahaman. | APPROVED | 3 sampai 8 kata |
-| Intro paragraph | PT Dinamika Enviro Abadi adalah perusahaan konsultan lingkungan yang mendampingi kegiatan usaha dalam merencanakan dan menjalankan pengelolaan lingkungan. Setiap pekerjaan dimulai dengan memahami karakteristik kegiatan, potensi dampak, serta kewajiban yang menyertainya. Pemahaman tersebut kemudian menjadi dasar untuk menyusun langkah yang sesuai dengan kebutuhan operasional dan kondisi lingkungan di setiap kegiatan. | APPROVED | 50 sampai 90 kata |
-| Supporting paragraph | DEA menjalankan pendampingan dengan mengutamakan profesionalisme, integritas, dan pemahaman teknis terhadap setiap kegiatan. Dengan dukungan tim yang kompeten pada bidangnya, perusahaan membantu mitra mempertimbangkan aspek operasional dan tanggung jawab lingkungan agar langkah pengelolaan dapat diterapkan secara tepat sesuai kondisi kegiatan masing-masing. | APPROVED | 40 sampai 80 kata |
-| Prinsip kerja | Profesional, berintegritas, dan memahami konteks setiap kegiatan | APPROVED | Hanya nilai yang nyata |
+| Section heading | Pendampingan dimulai dengan memahami kegiatan. | APPROVED | 3 sampai 8 kata |
+| Intro paragraph | PT Dinamika Enviro Abadi adalah perusahaan konsultan lingkungan yang mendampingi kegiatan usaha dalam merencanakan dan menjalankan pengelolaan lingkungan. Setiap pekerjaan dimulai dengan memahami karakteristik kegiatan, potensi dampak, dan kewajiban yang menyertainya. | APPROVED | 30 sampai 60 kata |
+| Scene label | Cara kami bekerja | APPROVED | 2 sampai 4 kata |
+| Scene heading | Pendampingan yang menjaga konteks tetap utuh. | APPROVED | 3 sampai 8 kata |
+| Tahap 01 | Memahami sebelum merumuskan — Setiap kegiatan memiliki konteks operasional dan lingkungan yang berbeda. Pendampingan dimulai dengan memahami kondisi tersebut secara menyeluruh. | APPROVED | Ringkas dan konkret |
+| Tahap 02 | Menjaga integritas proses — Profesionalisme dan integritas menjadi dasar dalam menyusun pertimbangan serta menjalankan setiap tahap pendampingan. | APPROVED | Ringkas dan konkret |
+| Tahap 03 | Mengarahkan langkah yang dapat diterapkan — Setiap langkah diarahkan agar sesuai dengan tanggung jawab lingkungan dan tetap relevan terhadap kondisi kegiatan usaha. | APPROVED | Ringkas dan konkret |
 
 Tidak menambahkan jumlah proyek, tahun pengalaman, atau wilayah kerja tanpa sumber.
 
-Catatan layout: section memakai surface soft blue untuk membedakannya dari dua section pembuka yang dominan putih. Heading menjadi focal point, sedangkan dua paragraf disusun sebagai alur jawaban terhadap keresahan pemilik usaha. Prinsip kerja ditampilkan sebagai satu pernyataan, bukan deretan card.
+Catatan layout: section memakai surface soft blue dan dua scene berurutan. Pada wide viewport, scene Tentang DEA berganti menjadi Cara Kami Bekerja di dalam sticky chapter. Compact viewport menampilkan keduanya dalam normal flow. Tiga tahap kerja berupa baris editorial, bukan card.
 
 Catatan editorial: istilah `metode ilmiah` berasal dari company profile, tetapi tidak dipakai sebagai pesan utama About karena memberi kesan lembaga riset atau pengembangan. Copy menekankan pendampingan profesional, integritas, kompetensi, dan pemahaman terhadap konteks kegiatan.
 
@@ -115,15 +118,20 @@ Catatan editorial: istilah `metode ilmiah` berasal dari company profile, tetapi 
 
 Isi hanya layanan yang benar-benar dijual.
 
+| Field | Isi | Status |
+| --- | --- | --- |
+| Section label | Layanan DEA | REVIEW |
+| Section heading | Kebutuhan lingkungan tidak berdiri sendiri. | REVIEW |
+| Supporting copy | DEA mendampingi penyusunan dokumen, pemenuhan ketentuan teknis, pengelolaan limbah dan pemantauan, serta kebutuhan lingkungan pertambangan. | REVIEW |
+
 | Urutan | Nama layanan | Ringkasan | Prioritas | Status | Sumber |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Dokumen Lingkungan | AMDAL, UKL-UPL, SPPL, RKL-RPL, DELH, DPLH, serta penyusunan dan pendampingan dokumen terkait | Utama | REVIEW | LinkedIn resmi DEA, diperiksa 2026-11-04 |
-| 2 | Kepatuhan dan Layanan Teknis Lingkungan | Persetujuan lingkungan dan teknis, pemenuhan ketentuan air limbah dan emisi, serta pengelolaan limbah B3 | Utama | REVIEW | LinkedIn resmi DEA, diperiksa 2026-11-04 |
-| 3 | Pengelolaan dan Pemantauan Lingkungan | Audit, SLO IPAL, SLO emisi, pemantauan, dan pendampingan pemenuhan kewajiban lingkungan | Pendukung | REVIEW | LinkedIn resmi DEA, diperiksa 2026-11-04 |
+| 2 | Kepatuhan dan Layanan Teknis Lingkungan | Persetujuan lingkungan dan teknis serta pemenuhan ketentuan air limbah dan emisi | Utama | REVIEW | LinkedIn resmi DEA, diperiksa 2026-11-04 |
+| 3 | Pengelolaan Limbah dan Pemantauan Lingkungan | Pengelolaan limbah B3, audit, SLO IPAL dan emisi, pemantauan, serta pendampingan pemenuhan kewajiban lingkungan | Utama | REVIEW | LinkedIn resmi DEA dan arahan pemilik proyek, 2026-11-05 |
 | 4 | Layanan Lingkungan Pertambangan | Survei RKL-RPL, air asam tambang, pengendalian erosi, audit, reklamasi, dan pascatambang | Pendukung | REVIEW | LinkedIn resmi DEA, diperiksa 2026-11-04 |
-| 5 | Solusi Berkelanjutan dan Waste-to-Energy | Pendampingan lingkungan untuk pengembangan pengolahan sampah menjadi energi | Pendukung | REVIEW | LinkedIn resmi DEA, diperiksa 2026-11-04 |
 
-Nama, isi, dan urutan di atas menjadi struktur kerja desain. Semuanya tetap perlu persetujuan pemilik proyek sebelum dipindahkan ke website.
+Nama, isi, dan urutan di atas menjadi struktur kerja desain. Informasi Waste-to-Energy tetap dicatat pada `docs/MATERI.md`, tetapi tidak diposisikan sebagai layanan tersendiri pada website. Pengalaman atau proyek terkait hanya dapat ditampilkan setelah cakupan pekerjaan dan izin publikasinya dikonfirmasi.
 
 ## 7. Our Approach
 
@@ -190,4 +198,6 @@ Metadata harus merangkum konten yang sudah disetujui. Jangan memasukkan layanan,
 | 2026-11-05 | Hero | Supporting copy dan daftar fokus direvisi agar pembuka general tanpa framing dokumen lingkungan | Pemilik proyek |
 | 2026-11-05 | Konteks Pengelolaan Lingkungan | Copy difokuskan pada keresahan pemilik usaha; DEA dan solusi dipindahkan ke section berikutnya | Pemilik proyek |
 | 2026-11-05 | About | Copy pendampingan, pemahaman teknis, dan prinsip kerja disetujui untuk dieksekusi pada prototype lokal | Pemilik proyek |
+| 2026-11-05 | About | About dipecah menjadi scene Tentang DEA dan Cara Kami Bekerja; copy prinsip tunggal diganti tiga tahap kerja | Pemilik proyek |
+| 2026-11-05 | Services | Waste-to-Energy tidak menjadi layanan tersendiri; fokus pengelolaan limbah ditempatkan pada kelompok pengelolaan dan pemantauan | Pemilik proyek |
 
