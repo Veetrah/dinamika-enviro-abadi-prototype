@@ -59,11 +59,10 @@ Profil personal anggota tim tidak menjadi bagian dari alur ini.
 
 | Label | Tujuan | Status |
 | --- | --- | --- |
-| Tentang | `#about` | DRAFT |
-| Layanan | `#services` | DRAFT |
-| Pendekatan | `#approach` | DRAFT |
-| Keahlian | `#expertise` | DRAFT |
-| Kontak | `#contact` | DRAFT |
+| Tentang | `#about` | REVIEW |
+| Layanan | `#services` | REVIEW |
+| Fokus | `#management-focus` | REVIEW |
+| Kontak | `#contact` | REVIEW |
 
 Label dan section hanya dipakai jika kontennya tersedia saat implementasi.
 
@@ -133,16 +132,33 @@ Isi hanya layanan yang benar-benar dijual.
 
 Nama, isi, dan urutan di atas menjadi struktur kerja desain. Informasi Waste-to-Energy tetap dicatat pada `docs/MATERI.md`, tetapi tidak diposisikan sebagai layanan tersendiri pada website. Pengalaman atau proyek terkait hanya dapat ditampilkan setelah cakupan pekerjaan dan izin publikasinya dikonfirmasi.
 
-## 7. Our Approach
+## 7. Fokus Pengelolaan
 
-Ganti alur berikut jika tidak sesuai proses kerja perusahaan.
+Section ini membahas hasil yang menjadi perhatian dalam pendampingan tanpa menampilkan KPI numerik, menjanjikan hasil tertentu, atau membuka proses internal klien.
 
-| Tahap | Nama | Penjelasan | Status |
-| --- | --- | --- | --- |
-| 1 | Konsultasi | `[NEEDED]` | DRAFT |
-| 2 | Kajian | `[NEEDED]` | DRAFT |
-| 3 | Rekomendasi | `[NEEDED]` | DRAFT |
-| 4 | Pendampingan | `[NEEDED]` | DRAFT |
+| Field | Isi | Status |
+| --- | --- | --- |
+| Section label | Fokus Pengelolaan | REVIEW |
+| Section heading | Dari rencana ke pelaksanaan. | REVIEW |
+| Supporting copy | Pendampingan lingkungan tidak berhenti pada pemenuhan satu kebutuhan. Kewajiban, pengelolaan dampak, dan pemantauan perlu diterjemahkan menjadi langkah yang sesuai dengan kondisi kegiatan usaha. | REVIEW |
+| Hasil 01 | Kewajiban yang terarah | REVIEW |
+| Penjelasan 01 | Kebutuhan lingkungan dan ketentuan yang menyertainya dipahami berdasarkan karakter kegiatan. | REVIEW |
+| Hasil 02 | Pengelolaan yang relevan | REVIEW |
+| Penjelasan 02 | Langkah pengelolaan diarahkan pada kondisi serta potensi dampak yang perlu dikendalikan. | REVIEW |
+| Hasil 03 | Pemantauan untuk tindak lanjut | REVIEW |
+| Penjelasan 03 | Data dan hasil pemantauan digunakan sebagai bahan evaluasi untuk menentukan tindak lanjut yang diperlukan. | REVIEW |
+
+Catatan editorial: kalimat di atas menjelaskan arah hasil, bukan jaminan kepatuhan, persetujuan, atau keberhasilan proyek. Copy telah dipindahkan ke prototype lokal untuk diperiksa pemilik proyek.
+
+### Arah visual sementara
+
+Setiap poin hasil menyediakan satu ruang dokumentasi agar kegiatan DEA dapat dilihat dalam konteks yang tepat. Selama foto belum tersedia, prototype memakai placeholder yang terlihat jelas:
+
+- `01`: `[DOKUMENTASI PENELAAHAN DATA DAN KONDISI KEGIATAN]`
+- `02`: `[DOKUMENTASI PEMERIKSAAN TEKNIS FASILITAS PENGELOLAAN]`
+- `03`: `[DOKUMENTASI PEMANTAUAN ATAU PENGAMBILAN SAMPEL DI LAPANGAN]`
+
+Foto tidak boleh memperlihatkan identitas klien, isi dokumen, koordinat, hasil pengujian, layar perangkat, atau informasi proyek yang belum mendapat izin publikasi.
 
 ## 8. Expertise / Sectors
 
@@ -158,10 +174,12 @@ Kehutanan, infrastruktur, dan industri hanya contoh dari diskusi awal. Jangan ta
 
 | Field | Isi | Status | Verifikasi |
 | --- | --- | --- | --- |
-| Heading | `[NEEDED]` | NEEDED | Pemilik proyek |
-| Supporting copy | `[NEEDED]` | NEEDED | Pemilik proyek |
-| Email | `[NEEDED]` | NEEDED | Kirim email percobaan |
-| WhatsApp | `[NEEDED]` | NEEDED | Buka tautan dan cek nomor |
+| Heading | Mulai dari kebutuhan lingkungan kegiatan Anda. | APPROVED | Pemilik proyek, 2026-11-06 |
+| Supporting copy | DEA membantu memahami konteks kegiatan dan menelaah kebutuhan sebelum menentukan langkah yang relevan. | APPROVED | Pemilik proyek, 2026-11-06 |
+| LinkedIn | `https://id.linkedin.com/company/denviroabadi` | REVIEW | Profil perusahaan aktif; verifikasi ulang sebelum release |
+| Email | `denviroabadi@gmail.com` | REVIEW | Carrd resmi yang ditautkan dari LinkedIn; kirim email percobaan sebelum release |
+| WhatsApp | `+62 853-4810-4830` / `https://wa.me/6285348104830` | NOT USED | Tidak ditampilkan pada Contact sesuai keputusan pemilik proyek, 2026-11-06 |
+| Instagram | `https://www.instagram.com/denviroabadi` | APPROVED | URL diberikan pemilik proyek, 2026-11-06 |
 | Telepon | `[OPTIONAL]` | NEEDED | Panggilan percobaan |
 | Alamat | `[NEEDED]` | NEEDED | Dokumen perusahaan |
 | Jam operasional | `[OPTIONAL]` | NEEDED | Pemilik proyek |
@@ -171,7 +189,11 @@ Kehutanan, infrastruktur, dan industri hanya contoh dari diskusi awal. Jangan ta
 | Field | Isi | Status |
 | --- | --- | --- |
 | Legal name | PT Dinamika Enviro Abadi | APPROVED |
-| Tahun copyright | Diambil dari tahun saat website dirilis | DRAFT |
+| Tahun copyright | 2026 | APPROVED |
+| Struktur prototype | Logo, label `Navigation` dengan daftar Tentang/Layanan/Fokus/Kontak, tombol ikon email/Instagram/LinkedIn, copyright, dan tautan afiliasi grup | APPROVED |
+| Copyright pada prototype | © 2026 PT Dinamika Enviro Abadi | APPROVED |
+| Afiliasi grup | Part of Arara Semesta Group | APPROVED |
+| Tautan grup | https://ararasemestagroup.id | APPROVED |
 | Privacy policy | NOT USED untuk v1, kecuali website mengumpulkan data | NOT USED |
 | Terms | NOT USED untuk v1, kecuali ada layanan yang membutuhkannya | NOT USED |
 
@@ -196,8 +218,15 @@ Metadata harus merangkum konten yang sudah disetujui. Jangan memasukkan layanan,
 | 2026-11-04 | Identitas perusahaan | Nama resmi, nama pendek, dan legal name disetujui | Pemilik proyek |
 | 2026-11-05 | Konteks Pengelolaan Lingkungan | Framing direvisi agar pembuka tetap general; dokumen lingkungan dipindahkan ke section layanan | Pemilik proyek |
 | 2026-11-05 | Hero | Supporting copy dan daftar fokus direvisi agar pembuka general tanpa framing dokumen lingkungan | Pemilik proyek |
+| 2026-11-06 | Contact | Kanal diubah menjadi daftar vertikal Instagram, LinkedIn, dan email dengan nama akun; WhatsApp dihapus dari tampilan | Pemilik proyek |
 | 2026-11-05 | Konteks Pengelolaan Lingkungan | Copy difokuskan pada keresahan pemilik usaha; DEA dan solusi dipindahkan ke section berikutnya | Pemilik proyek |
 | 2026-11-05 | About | Copy pendampingan, pemahaman teknis, dan prinsip kerja disetujui untuk dieksekusi pada prototype lokal | Pemilik proyek |
 | 2026-11-05 | About | About dipecah menjadi scene Tentang DEA dan Cara Kami Bekerja; copy prinsip tunggal diganti tiga tahap kerja | Pemilik proyek |
 | 2026-11-05 | Services | Waste-to-Energy tidak menjadi layanan tersendiri; fokus pengelolaan limbah ditempatkan pada kelompok pengelolaan dan pemantauan | Pemilik proyek |
+| 2026-11-05 | Hasil yang Dijaga | Konsep disetujui untuk penyusunan draft copy; belum disetujui untuk publikasi | Pemilik proyek |
+| 2026-11-06 | Fokus Pengelolaan | Label, heading, dan supporting copy diminta untuk dieksekusi pada prototype lokal | Pemilik proyek |
+| 2026-11-06 | Fokus Pengelolaan | Tiga poin hasil diminta untuk dimasukkan ke prototype lokal agar hierarchy dan copy dapat diperiksa dalam konteks halaman | Pemilik proyek |
+| 2026-11-06 | Fokus Pengelolaan | Pembuka dan tiga poin hasil dipecah menjadi chapter scroll terpisah agar setiap gagasan mudah dibaca dan siap menampung dokumentasi kegiatan | Pemilik proyek |
+| 2026-11-06 | Footer | Surface navy, label Navigation, empat link internal, tiga tombol ikon kontak, dan copyright disetujui untuk prototype | Pemilik proyek |
+| 2026-11-06 | Footer | Tautan `Part of Arara Semesta Group` menuju website resmi ASG ditambahkan pada baris legal paling bawah | Pemilik proyek |
 

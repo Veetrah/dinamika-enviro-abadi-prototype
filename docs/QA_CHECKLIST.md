@@ -16,6 +16,14 @@ Evidence:
 2026-11-05 Chrome in-app browser, http://127.0.0.1:4173, PASS untuk pembuka general dan section Konteks Pengelolaan Lingkungan. Hero tidak memusatkan pembuka pada dokumen lingkungan. Section setelah hero hanya memuat keresahan pemilik usaha dan tidak menyebut DEA, layanan, solusi, atau dokumen. Layout stabil pada 320 sampai 1440 px dan reveal mencapai state akhir.
 2026-11-05 Chrome in-app browser, http://127.0.0.1:4173/#about, PASS untuk section About. Copy sesuai materi approved, istilah `metode ilmiah` dan `berbasis sains` tidak muncul pada section, layout stabil pada 320 sampai 1440 px, reveal mencapai state akhir, dan console tidak memiliki warning atau error.
 2026-11-05 Chrome in-app browser, http://127.0.0.1:4174/#services, PASS untuk revisi Services. Empat layanan dan progress 01–04 tampil sesuai urutan, Waste-to-Energy tidak muncul pada konten publik, console bersih, dan tidak ada horizontal overflow.
+2026-11-06 Chrome in-app browser, http://127.0.0.1:4174/#management-focus, PASS untuk implementasi awal Fokus Pengelolaan sampai supporting copy. Label, heading, dan supporting copy tampil utuh; console bersih; tidak ada horizontal overflow pada 390 x 844 dan 1280 x 720.
+2026-11-06 Chrome in-app browser, http://127.0.0.1:4174/#management-focus, PASS untuk revisi surface Fokus Pengelolaan ke navy utama `#336699`. Background terverifikasi `rgb(51, 102, 153)`, console bersih, dan tidak ada horizontal overflow pada 390 x 844 maupun 1280 x 720. White on navy memiliki rasio 6.00:1; supporting copy 90% white memiliki rasio komposit 5.23:1.
+2026-11-06 Chrome in-app browser, http://127.0.0.1:4174/#management-focus, PASS untuk tiga baris hasil pada Fokus Pengelolaan. Urutan 01–03, heading, dan deskripsi tampil lengkap; reveal per baris mencapai state akhir; console bersih; tidak ada horizontal overflow pada 390 x 844 maupun 1280 x 720.
+2026-11-06 Chrome in-app browser, http://127.0.0.1:4174/#management-focus, PASS untuk revisi empat chapter Fokus Pengelolaan. Pembuka dan chapter 01–03 memakai normal flow; setiap chapter menampilkan nomor, copy, dan placeholder dokumentasi; motion masuk, keluar, serta reverse scroll mencapai state yang benar. Console bersih dan tidak ada horizontal overflow pada 390 x 844, 768 x 900, dan 1280 x 720.
+2026-11-06 Chrome in-app browser, http://127.0.0.1:4174/#contact, PASS untuk revisi Contact. Instagram, LinkedIn, dan email tampil sebagai tiga baris vertikal dengan ikon serta nama akun; WhatsApp tidak ada pada DOM. Instagram dan LinkedIn berhasil dibuka ke tujuan resmi. `mailto:` diverifikasi melalui source karena browser preview memblokir navigasi ke protokol eksternal. Console bersih dan tidak ada horizontal overflow pada 390 x 844, 768 x 900, maupun 1280 x 720. Navy pada putih terukur 6.00:1, muted pada putih 6.02:1, dan navy pada soft blue 5.41:1.
+2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk header dan navigasi. Empat link menuju section yang tersedia; desktop menampilkan daftar horizontal, sedangkan compact memakai tombol Menu. Buka/tutup, klik link, klik luar, Escape, pengembalian fokus, state ARIA, target sentuh, dan overflow diverifikasi pada 390 x 844, 768 x 900, dan 1280 x 720. Console tidak memiliki warning atau error.
+2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk Footer. Surface navy, logo sementara monokrom putih, label Navigation, empat link internal, tiga tombol ikon kontak, serta copyright tampil pada compact, medium, dan wide tanpa overflow atau collision. Seluruh target berukuran minimal 44 piksel, urutan keyboard sesuai urutan visual, focus ring kuning terlihat pada surface navy, dan console bersih. Putih pada navy terukur 6.00:1; kuning pada navy terukur 4.08:1.
+2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk tautan afiliasi Footer. `Part of Arara Semesta Group` mengarah ke `https://ararasemestagroup.id`, memakai `target="_blank"` dan `rel="noopener noreferrer"`. Link berada di bawah copyright pada compact state dan sejajar di sisi kanan pada medium/wide state. Target terukur 44 piksel, urutan keyboard berada setelah LinkedIn, focus ring kuning terlihat, console bersih, dan tidak ada horizontal overflow pada 390 x 844, 768 x 900, maupun 1280 x 720.
 ```
 
 ## 2. Content Integrity
@@ -23,20 +31,20 @@ Evidence:
 - [ ] Nama, deskripsi, layanan, proses, sektor, dan kontak sama dengan konten APPROVED.
 - [ ] Tidak ada placeholder yang tersamarkan sebagai konten final.
 - [ ] Tidak ada statistik, testimonial, proyek, sertifikasi, atau klaim tanpa sumber.
-- [ ] Tidak ada nav item menuju section yang tidak tersedia.
+- [x] Tidak ada nav item menuju section yang tidak tersedia.
 - [ ] Legal name dan copyright benar.
 
 ## 3. Navigation dan Interaction
 
 - [x] Logo atau nama perusahaan menuju tujuan yang disepakati.
-- [ ] Setiap link navigasi menuju section yang benar.
+- [x] Setiap link navigasi menuju section yang benar.
 - [ ] Primary CTA bekerja.
 - [ ] Secondary CTA bekerja jika ditampilkan.
 - [ ] Link email membuka alamat yang benar.
-- [ ] Link WhatsApp membuka nomor yang benar.
-- [ ] Mobile menu dapat dibuka dan ditutup.
-- [ ] Mobile menu dapat ditutup dengan `Escape`.
-- [ ] State `aria-expanded` sesuai keadaan menu.
+- [x] WhatsApp tidak ditampilkan sesuai keputusan scope.
+- [x] Mobile menu dapat dibuka dan ditutup.
+- [x] Mobile menu dapat ditutup dengan `Escape`.
+- [x] State `aria-expanded` sesuai keadaan menu.
 - [x] Tidak ada tombol atau link mati pada scope prototype hero.
 
 Click-through record:
@@ -45,6 +53,19 @@ Click-through record:
 | --- | --- | --- | --- |
 | Skip link | Fokus berpindah ke `#main-content` | PASS, fokus berada pada elemen `main` | Chrome in-app, keyboard, 320 px |
 | Logo DEA | Kembali ke `#top` | PASS | Chrome in-app, keyboard, 320 px |
+| Tentang | Menuju `#about` | PASS | Chrome in-app, mouse/keyboard, 390 dan 1280 px |
+| Layanan | Menuju `#services` | PASS | Chrome in-app, mouse/keyboard, 390 dan 1280 px |
+| Fokus | Menuju `#management-focus` | PASS | Chrome in-app, mouse/keyboard, 390 dan 1280 px |
+| Kontak | Menuju `#contact` | PASS | Chrome in-app, mouse/keyboard, 390 dan 1280 px |
+| Menu compact | Buka/tutup melalui tombol, link, klik luar, dan Escape | PASS, fokus kembali ke tombol setelah Escape | Chrome in-app, keyboard/mouse, 390 px |
+| Logo footer | Kembali ke `#top` | PASS | Chrome in-app, keyboard/mouse, 390 px |
+| Navigasi footer | Tentang, Layanan, Fokus, dan Kontak menuju section masing-masing | PASS | Chrome in-app, keyboard/mouse, 390 dan 768 px |
+| Ikon Instagram footer | Membuka `instagram.com/denviroabadi` pada tab baru | PASS, tujuan dan atribut tab baru terverifikasi | Chrome in-app, mouse/source, 390 px |
+| Ikon LinkedIn footer | Membuka profil perusahaan DEA pada tab baru | PASS, tujuan dan atribut tab baru terverifikasi | Chrome in-app, mouse/source, 390 px |
+| Ikon email footer | Membuka email baru ke `denviroabadi@gmail.com` | PASS melalui inspeksi source; klik protokol eksternal diblokir keamanan browser preview | Chrome in-app, keyboard/source, 390 px |
+| Instagram | Membuka `instagram.com/denviroabadi` pada tab baru | PASS, tujuan resmi terbuka | Chrome in-app, mouse/keyboard, 1280 px |
+| LinkedIn | Membuka profil perusahaan DEA pada tab baru | PASS, tujuan resmi terbuka | Chrome in-app, mouse/keyboard, 1280 px |
+| Email | Membuka email baru ke `denviroabadi@gmail.com` | PASS melalui inspeksi source; klik protokol eksternal diblokir keamanan browser preview | Chrome in-app, keyboard/source, 1280 px |
 
 ## 4. Responsive Layout
 
@@ -52,9 +73,9 @@ Uji seluruh rentang, bukan hanya titik sampel.
 
 | State | Titik uji awal | Hasil | Catatan |
 | --- | --- | --- | --- |
-| Compact | 320, 360, 390, 430 px | PASS, spot check | 320 dan 390 px diperiksa; konteks, About, dan Services menjadi satu kolom, target anchor menempatkan label di bawah header, dan tidak ada overflow |
-| Medium | 600, 768, 900 px | PASS, spot check | 768 px diperiksa; About memisahkan label dan heading serta menyusun narasi dua kolom tanpa collision |
-| Wide | 1024, 1280, 1440, 1920 px | PASS, spot check | 1280 x 720 dan 1440 x 900 diperiksa; heading menjadi focal point, Services memakai intro sticky dan progress aktif, serta tidak ada overflow |
+| Compact | 320, 360, 390, 430 px | PASS, spot check | 320 dan 390 px diperiksa; konteks, About, Services, Fokus Pengelolaan, Contact, dan Footer menjadi satu kolom. Link Footer tersusun vertikal, tiga ikon tetap utuh, dan afiliasi grup turun di bawah copyright |
+| Medium | 600, 768, 900 px | PASS, spot check | 768 px diperiksa; About dan Contact memisahkan label dari konten utama. Footer memakai tiga zona tanpa collision; copyright dan afiliasi grup sejajar pada baris legal |
+| Wide | 1024, 1280, 1440, 1920 px | PASS, spot check | 1280 x 720 dan 1440 x 900 diperiksa; heading menjadi focal point, Services memakai intro sticky dan progress aktif, Fokus Pengelolaan memakai komposisi dua kolom, Contact memakai penutup editorial dua kolom, serta Footer menutup dengan komposisi logo, Navigation, ikon, dan baris afiliasi tanpa overflow |
 
 - [x] Tidak ada horizontal overflow.
 - [x] Teks tidak keluar container.
@@ -68,11 +89,11 @@ Uji seluruh rentang, bukan hanya titik sampel.
 
 ## 5. Keyboard dan Accessibility
 
-- [x] Urutan Tab mengikuti urutan visual pada scope prototype hero.
+- [x] Urutan Tab mengikuti urutan visual dari skip link, logo, sampai tiga kanal Contact.
 - [x] Semua link yang tersedia dapat diaktifkan dengan keyboard.
-- [ ] Focus indicator terlihat jelas pada surface terang dan gelap.
+- [x] Focus indicator terlihat jelas pada surface terang dan gelap.
 - [x] Tidak ada keyboard trap.
-- [ ] Menu dapat ditutup dengan `Escape`.
+- [x] Menu dapat ditutup dengan `Escape`.
 - [x] Satu `h1` dan hierarchy heading benar.
 - [x] Landmark tersedia dan tidak disalahgunakan.
 - [x] Semua image memiliki alt yang sesuai.
@@ -103,6 +124,10 @@ Pada 2026-11-05, About memakai masked heading reveal dan stagger narasi tanpa pe
 Pada 2026-11-05, About dua scene diverifikasi pada wide dan compact. Wide mengganti Tentang DEA menjadi Cara Kami Bekerja dan membuka tahap 01–03 sesuai progres scroll. Compact memakai normal flow dengan `scrollWidth` sama dengan `clientWidth`; console bersih. Emulasi reduced-motion khusus masih tertunda.
 Pada 2026-11-05, audit seluruh motion memverifikasi Hero handoff, entrance dan dua scene Tanggung Jawab, entrance dan scene About, exit phase, serta reverse scroll. Reveal diputar kembali setelah section keluar lalu masuk viewport. Compact tetap tanpa horizontal overflow dan console bersih.
 Pada 2026-11-05, Services dengan empat kelompok diverifikasi pada wide dan compact. Progress bergerak dari 01–04 sesuai layanan aktif, item berikutnya masuk tanpa jeda kosong, dan dua ukuran viewport tidak mengalami horizontal overflow.
+Pada 2026-11-06, Fokus Pengelolaan diverifikasi pada wide dan compact. Label, heading, dan supporting copy muncul berurutan lalu mencapai state akhir yang stabil. Heading wide dibatasi 64 px dan compact 40 px; console bersih dan tidak ada horizontal overflow.
+Pada 2026-11-06, tiga baris hasil Fokus Pengelolaan diverifikasi pada wide dan compact. Setiap baris masuk saat mencapai viewport, urutan tetap terbaca pada normal flow, dan reduced-motion tetap memakai fallback global tanpa menyembunyikan konten.
+Pada 2026-11-06, Fokus Pengelolaan dipecah menjadi pembuka dan tiga chapter normal-flow. Chapter sebelumnya ease-out ke atas, chapter berikutnya masuk berurutan, dan arah motion pulih saat pengguna kembali scroll ke atas. Compact dan medium menyusun media di bawah copy tanpa sticky; wide memakai tiga kolom. Reduced-motion tetap mendapat normal flow statis melalui fallback global.
+Pada 2026-11-06, Contact memakai reveal berurutan untuk garis, label, headline, copy, lalu kanal. State akhir stabil pada compact, medium, dan wide tanpa mengubah layout atau urutan keyboard.
 ```
 
 ## 7. Media dan Performance Mechanisms

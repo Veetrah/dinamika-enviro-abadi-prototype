@@ -28,7 +28,19 @@
         <img class="brand__logo" src="assets/vectors/Logo_DEA_colorful.svg" width="3550" height="931"
           alt="PT Dinamika Enviro Abadi">
       </a>
-      <p class="prototype-label">Prototype lokal</p>
+      <div class="site-header__actions">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>
+          Menu
+        </button>
+        <nav class="site-navigation" id="site-navigation" aria-label="Navigasi utama" data-site-navigation>
+          <ul class="site-navigation__list">
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#management-focus" aria-label="Fokus Pengelolaan">Fokus</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
     <span class="site-header__progress" data-scroll-progress aria-hidden="true"></span>
   </header>
@@ -254,12 +266,214 @@
         </div>
       </div>
     </section>
+
+    <section class="management-focus" id="management-focus" aria-labelledby="management-focus-title">
+      <div class="shell management-focus__opening" data-reveal>
+        <p class="section-label">Fokus Pengelolaan</p>
+        <div class="management-focus__opening-copy">
+          <h2 id="management-focus-title">Dari rencana ke pelaksanaan.</h2>
+          <p>
+            Pendampingan lingkungan tidak berhenti pada pemenuhan satu kebutuhan. Kewajiban,
+            pengelolaan dampak, dan pemantauan perlu diterjemahkan menjadi langkah yang sesuai
+            dengan kondisi kegiatan usaha.
+          </p>
+        </div>
+      </div>
+
+      <div class="management-focus__chapters">
+        <article class="management-chapter" data-management-chapter data-reveal>
+          <div class="shell management-chapter__inner">
+            <p class="management-chapter__number" aria-hidden="true">01</p>
+            <div class="management-chapter__copy">
+              <h3>Kewajiban yang terarah</h3>
+              <p>
+                Kebutuhan lingkungan dan ketentuan yang menyertainya dipahami berdasarkan
+                karakter kegiatan.
+              </p>
+            </div>
+            <figure class="management-chapter__documentation">
+              <div class="management-chapter__placeholder" role="img"
+                aria-label="Placeholder dokumentasi penelaahan data dan kondisi kegiatan">
+                <span>Dokumentasi kegiatan</span>
+                <p>Penelaahan data dan kondisi kegiatan</p>
+              </div>
+              <figcaption>Placeholder sementara untuk prototype lokal.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="management-chapter" data-management-chapter data-reveal>
+          <div class="shell management-chapter__inner">
+            <p class="management-chapter__number" aria-hidden="true">02</p>
+            <div class="management-chapter__copy">
+              <h3>Pengelolaan yang relevan</h3>
+              <p>
+                Langkah pengelolaan diarahkan pada kondisi serta potensi dampak yang perlu
+                dikendalikan.
+              </p>
+            </div>
+            <figure class="management-chapter__documentation">
+              <div class="management-chapter__placeholder" role="img"
+                aria-label="Placeholder dokumentasi pemeriksaan teknis fasilitas pengelolaan lingkungan">
+                <span>Dokumentasi kegiatan</span>
+                <p>Pemeriksaan teknis fasilitas pengelolaan lingkungan</p>
+              </div>
+              <figcaption>Placeholder sementara untuk prototype lokal.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="management-chapter" data-management-chapter data-reveal>
+          <div class="shell management-chapter__inner">
+            <p class="management-chapter__number" aria-hidden="true">03</p>
+            <div class="management-chapter__copy">
+              <h3>Pemantauan untuk tindak lanjut</h3>
+              <p>
+                Data dan hasil pemantauan digunakan sebagai bahan evaluasi untuk menentukan
+                tindak lanjut yang diperlukan.
+              </p>
+            </div>
+            <figure class="management-chapter__documentation">
+              <div class="management-chapter__placeholder" role="img"
+                aria-label="Placeholder dokumentasi pemantauan atau pengambilan sampel di lapangan">
+                <span>Dokumentasi kegiatan</span>
+                <p>Pemantauan atau pengambilan sampel di lapangan</p>
+              </div>
+              <figcaption>Placeholder sementara untuk prototype lokal.</figcaption>
+            </figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title" data-reveal>
+      <div class="shell contact__inner">
+        <p class="section-label">Kontak DEA</p>
+
+        <div class="contact__content">
+          <h2 id="contact-title">Mulai dari kebutuhan lingkungan kegiatan Anda.</h2>
+          <p class="contact__copy">
+            DEA membantu memahami konteks kegiatan dan menelaah kebutuhan sebelum menentukan
+            langkah yang relevan.
+          </p>
+
+          <nav aria-label="Kanal kontak PT Dinamika Enviro Abadi">
+            <ul class="contact__channels">
+              <li>
+                <a class="contact-channel" href="https://www.instagram.com/denviroabadi" target="_blank"
+                  rel="noopener noreferrer" aria-label="Buka Instagram @denviroabadi">
+                  <span class="contact-channel__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                      <circle cx="12" cy="12" r="4"></circle>
+                      <circle class="contact-channel__dot" cx="17.4" cy="6.6" r="1"></circle>
+                    </svg>
+                  </span>
+                  <span class="contact-channel__text">
+                    <span class="contact-channel__platform">Instagram</span>
+                    <span class="contact-channel__account">@denviroabadi</span>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a class="contact-channel" href="https://id.linkedin.com/company/denviroabadi" target="_blank"
+                  rel="noopener noreferrer" aria-label="Buka LinkedIn PT Dinamika Enviro Abadi">
+                  <span class="contact-channel__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <rect x="3" y="9" width="4" height="12" rx="1"></rect>
+                      <circle class="contact-channel__dot" cx="5" cy="5" r="2"></circle>
+                      <path
+                        d="M11 21V9h4v1.8c1-1.4 2.3-2.2 4.1-2.2 3 0 4.9 2 4.9 6V21h-4v-5.7c0-1.9-.7-3.1-2.4-3.1-1.8 0-2.6 1.3-2.6 3.4V21z">
+                      </path>
+                    </svg>
+                  </span>
+                  <span class="contact-channel__text">
+                    <span class="contact-channel__platform">LinkedIn</span>
+                    <span class="contact-channel__account">PT Dinamika Enviro Abadi</span>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a class="contact-channel" href="mailto:denviroabadi@gmail.com"
+                  aria-label="Kirim email ke denviroabadi@gmail.com">
+                  <span class="contact-channel__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <rect x="2.5" y="5" width="19" height="14" rx="2"></rect>
+                      <path d="m4 7 8 6 8-6"></path>
+                    </svg>
+                  </span>
+                  <span class="contact-channel__text">
+                    <span class="contact-channel__platform">Email</span>
+                    <span class="contact-channel__account">denviroabadi@gmail.com</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="shell site-footer__inner">
-      <p>PT Dinamika Enviro Abadi</p>
-      <p>Prototype lokal · belum untuk publikasi</p>
+      <a class="site-footer__brand" href="#top" aria-label="PT Dinamika Enviro Abadi, kembali ke awal">
+        <img class="site-footer__logo" src="assets/vectors/Logo_DEA_colorful.svg" width="3550" height="931" alt="">
+      </a>
+
+      <div class="site-footer__navigation">
+        <p class="site-footer__label" id="footer-navigation-title">Navigation</p>
+        <nav aria-labelledby="footer-navigation-title">
+          <ul>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#management-focus" aria-label="Fokus Pengelolaan">Fokus</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <nav class="site-footer__contact" aria-label="Kontak PT Dinamika Enviro Abadi">
+        <ul>
+          <li>
+            <a class="site-footer__contact-link" href="mailto:denviroabadi@gmail.com"
+              aria-label="Kirim email ke denviroabadi@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <rect x="2.5" y="5" width="19" height="14" rx="2"></rect>
+                <path d="m4 7 8 6 8-6"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="site-footer__contact-link" href="https://www.instagram.com/denviroabadi" target="_blank"
+              rel="noopener noreferrer" aria-label="Buka Instagram @denviroabadi">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                <circle cx="12" cy="12" r="4"></circle>
+                <circle class="site-footer__contact-dot" cx="17.4" cy="6.6" r="1"></circle>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="site-footer__contact-link" href="https://id.linkedin.com/company/denviroabadi" target="_blank"
+              rel="noopener noreferrer" aria-label="Buka LinkedIn PT Dinamika Enviro Abadi">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <rect x="3" y="9" width="4" height="12" rx="1"></rect>
+                <circle class="site-footer__contact-dot" cx="5" cy="5" r="2"></circle>
+                <path d="M11 21V9h4v1.8c1-1.4 2.3-2.2 4.1-2.2 3 0 4.9 2 4.9 6V21h-4v-5.7c0-1.9-.7-3.1-2.4-3.1-1.8 0-2.6 1.3-2.6 3.4V21z"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__bottom">
+        <p class="site-footer__copyright">© 2026 PT Dinamika Enviro Abadi</p>
+        <a class="site-footer__group-link" href="https://ararasemestagroup.id" target="_blank" rel="noopener noreferrer">Part of Arara Semesta Group</a>
+      </div>
     </div>
   </footer>
 </body>

@@ -80,7 +80,7 @@ Interpretasi konsep untuk eksekusi:
 - Pendekatan: mobile-first dan responsif.
 - Motion: halus, singkat, dan punya fungsi.
 - Stack: HTML5, CSS3, dan vanilla JavaScript.
-- Struktur inti: Hero, Konteks Pengelolaan Lingkungan, About, Services, Our Approach, Expertise, Contact, Footer.
+- Struktur inti: Hero, Konteks Pengelolaan Lingkungan, About, Services, Fokus Pengelolaan, Expertise, Contact, Footer.
 - Tidak menggunakan login, database, CMS, framework aplikasi, GSAP, Three.js, atau library animasi berat untuk versi pertama.
 
 ### Sementara dan perlu divalidasi saat visual exploration
@@ -190,7 +190,7 @@ Halaman dibangun sebagai satu alur cerita, bukan kumpulan section yang berdiri s
 2. Konteks Pengelolaan Lingkungan mengangkat keresahan pemilik usaha dalam menjaga kegiatan operasional sekaligus menjalankan tanggung jawab lingkungan.
 3. About menjawab keresahan tersebut dengan memperkenalkan posisi, integritas, dan pendekatan DEA.
 4. Services mengubah kebutuhan tersebut menjadi kelompok solusi yang konkret.
-5. Our Approach menunjukkan bagaimana pekerjaan dijalankan secara sistematis.
+5. Fokus Pengelolaan menghubungkan layanan dengan pelaksanaan tanpa membuka proses internal klien.
 6. Expertise memberi konteks penerapan tanpa membuat klaim proyek yang belum disetujui.
 7. Contact menutup narasi dengan langkah berikutnya yang jelas.
 
@@ -281,17 +281,15 @@ Komposisi yang disarankan:
 3. Pengelolaan Limbah dan Pemantauan Lingkungan.
 4. Layanan Lingkungan Pertambangan.
 
-### 7.6 Our Approach
+### 7.6 Fokus Pengelolaan
 
-Tujuan: memperlihatkan bahwa pekerjaan dijalankan melalui proses yang sistematis.
+Tujuan: menghubungkan daftar layanan dengan pelaksanaan pengelolaan lingkungan tanpa memakai KPI yang belum terverifikasi atau menjelaskan proses internal klien.
 
-Alur yang ditampilkan harus cukup luas untuk mewakili pekerjaan dokumen lingkungan, kepatuhan teknis, pengelolaan limbah, dan pemantauan. Tahap dapat mencakup konsultasi awal, pengumpulan data, kajian, penyusunan atau perencanaan, dan pendampingan. Nama serta urutan final harus mengikuti proses kerja perusahaan yang sebenarnya.
-
-Jangan memaksakan satu proses generik jika kelompok layanan memiliki alur yang berbeda. Website dapat menampilkan satu kerangka kerja bersama, lalu menjelaskan perbedaan pada detail layanan.
-
-- Desktop menampilkan alur horizontal dengan connector sederhana yang tidak bersaing dengan motif hero.
-- Mobile menampilkan alur vertikal yang mengikuti arah scroll.
-- Animasi garis menunjukkan progres membaca, bukan mengunci atau mengambil alih scroll.
+- Label section menggunakan `Fokus Pengelolaan`.
+- Headline menggunakan `Dari rencana ke pelaksanaan.`
+- Supporting copy menjelaskan bahwa kewajiban, pengelolaan dampak, dan pemantauan perlu diterjemahkan sesuai kondisi kegiatan usaha.
+- Section memakai surface navy utama `#336699` untuk memberi jeda setelah Services yang dominan putih tanpa membuat transisi terasa terlalu gelap.
+- Prototype memecah pembuka dan tiga poin hasil menjadi empat chapter scroll dalam normal flow. Setiap chapter hasil menyediakan ruang dokumentasi yang dapat diganti foto kegiatan DEA setelah aset dan izin publikasinya tersedia.
 
 ### 7.7 Expertise / Sectors We Support
 
@@ -308,19 +306,22 @@ Section ini bersifat pendukung. Pengunjung harus memahami fokus layanan DEA sebe
 
 Tujuan: memberi jalur komunikasi yang langsung dan jelas.
 
-- Background biru penuh sebagai penutup narasi utama.
-- Heading singkat dan spesifik.
-- Satu CTA kuning menuju WhatsApp atau email yang aktif.
-- Alamat dan detail kontak hanya diisi dengan data nyata.
+- Surface kembali ke putih setelah rangkaian section Fokus Pengelolaan berwarna navy.
+- Heading mengajak pengunjung memulai dari kebutuhan lingkungan kegiatannya tanpa membatasi percakapan pada satu jenis layanan.
+- Kanal Instagram, LinkedIn, dan email ditampilkan sebagai daftar vertikal. Setiap baris memuat ikon, nama kanal, serta nama akun atau alamatnya.
+- Seluruh baris memakai navy agar kontak terbaca sebagai satu kelompok. Kuning tetap dipakai pada garis transisi sebagai motif identitas, bukan warna salah satu kanal.
+- WhatsApp tidak ditampilkan pada versi ini.
+- Setiap baris memiliki tujuan nyata, nama aksesibel, serta state hover, aktif, dan fokus yang jelas.
+- Alamat dan detail kontak lain hanya diisi dengan data nyata.
 - Tidak menggunakan form jika tidak ada backend atau proses penerimaan pesan yang jelas.
 
 ### 7.9 Footer
 
-- Logo atau nama perusahaan.
-- Navigasi singkat ke section yang tersedia.
-- Informasi kontak inti.
-- Copyright dengan legal name dan tahun yang benar.
-- Tidak memakai footer empat kolom jika isinya tidak cukup.
+- Surface memakai navy DEA `#336699` sebagai penutup halaman.
+- Logo berada di sisi awal. Selama logo versi putih belum tersedia, logo utama dirender monokrom putih melalui CSS sebagai fallback sementara.
+- Navigasi memakai label kecil `Navigation` dengan daftar vertikal Tentang, Layanan, Fokus, dan Kontak di bawahnya.
+- Kontak hanya memakai tiga tombol ikon untuk email, Instagram, dan LinkedIn dengan nama aksesibel serta tujuan nyata.
+- Copyright legal name, tahun, dan tautan `Part of Arara Semesta Group` tampil sebagai baris paling bawah. Tautan afiliasi mengarah ke website resmi grup. WhatsApp, alamat, dan struktur empat kolom tidak ditampilkan.
 
 ## 8. Section yang Sengaja Tidak Masuk Versi Pertama
 
@@ -356,7 +357,7 @@ Motion harus membantu orientasi, urutan baca, dan feedback interaksi.
 | Hero | Text reveal singkat dan elemen kuning tersusun satu kali | Text reveal lebih pendek dan transform lebih ringan |
 | Visual hero | Foto atau cutout ilustratif dibuka satu kali melalui mask reveal | Visual tampil statis atau memakai reveal yang lebih pendek |
 | Service item | Hover dan focus state | Scroll reveal serta tap feedback |
-| Our Approach | Garis horizontal mengikuti urutan | Garis vertikal mengikuti urutan |
+| Fokus Pengelolaan | Label, headline, dan copy masuk berurutan; setiap poin hasil muncul saat memasuki viewport | Reveal disederhanakan dalam normal flow |
 | Navigation | Surface header muncul saat halaman mulai digulir | Menu dengan transisi singkat |
 | CTA | Hover, active, dan focus state | Tap feedback yang jelas |
 

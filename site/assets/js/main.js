@@ -6,6 +6,8 @@ const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const siteHeader = document.querySelector("[data-site-header]");
 const headerSentinel = document.querySelector("[data-header-sentinel]");
 const scrollProgress = document.querySelector("[data-scroll-progress]");
+const navToggle = document.querySelector("[data-nav-toggle]");
+const siteNavigation = document.querySelector("[data-site-navigation]");
 const hero = document.querySelector(".hero");
 const environmentContext = document.querySelector(".environment-context");
 const about = document.querySelector(".about");
@@ -14,6 +16,45 @@ const services = document.querySelector(".services");
 const serviceItems = Array.from(document.querySelectorAll("[data-service-index]"));
 const serviceCurrent = document.querySelector("[data-service-current]");
 const serviceProgress = document.querySelector("[data-service-progress]");
+const managementOpening = document.querySelector(".management-focus__opening");
+const managementChapters = Array.from(document.querySelectorAll("[data-management-chapter]"));
+
+if (siteHeader && navToggle && siteNavigation) {
+  const navLinks = siteNavigation.querySelectorAll("a[href^=\"#\"]");
+  const desktopNavigation = window.matchMedia("(min-width: 48rem)");
+
+  const setNavigation = (isOpen, restoreFocus = false) => {
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+    siteNavigation.classList.toggle("is-open", isOpen);
+    siteHeader.classList.toggle("is-menu-open", isOpen);
+
+    if (restoreFocus) {
+      navToggle.focus();
+    }
+  };
+
+  navToggle.addEventListener("click", () => {
+    setNavigation(navToggle.getAttribute("aria-expanded") !== "true");
+  });
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => setNavigation(false));
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && navToggle.getAttribute("aria-expanded") === "true") {
+      setNavigation(false, true);
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (navToggle.getAttribute("aria-expanded") === "true" && !siteHeader.contains(event.target)) {
+      setNavigation(false);
+    }
+  });
+
+  desktopNavigation.addEventListener("change", () => setNavigation(false));
+}
 
 const revealAll = () => {
   revealSections.forEach((section) => section.classList.add("is-visible"));
@@ -104,6 +145,16 @@ if (!reduceMotion.matches) {
         aboutChapterLabel.textContent = "Tentang DEA";
       }
     }
+
+    if (managementOpening) {
+      const openingRect = managementOpening.getBoundingClientRect();
+      managementOpening.classList.toggle("is-past", openingRect.bottom < window.innerHeight * 0.22);
+    }
+
+    managementChapters.forEach((chapter) => {
+      const chapterRect = chapter.getBoundingClientRect();
+      chapter.classList.toggle("is-past", chapterRect.bottom < window.innerHeight * 0.22);
+    });
 
     if (services && serviceItems.length) {
       const viewportHeight = window.innerHeight;

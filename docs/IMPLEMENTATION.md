@@ -50,14 +50,14 @@ Rencana ini memecah eksekusi website PT Dinamika Enviro Abadi dengan konsep Blue
 
 | ID | Task | Dependensi | Acceptance criteria | Status |
 | --- | --- | --- | --- | --- |
-| P2-01 | Header dan navigasi | P1-02, P1-04 | Semua link menuju section nyata | IN PROGRESS |
+| P2-01 | Header dan navigasi | P1-02, P1-04 | Semua link menuju section nyata | DONE |
 | P2-02 | Hero | P1-03, P0-06 | Hierarchy jelas pada compact dan wide | IN PROGRESS |
 | P2-03 | Konteks Pengelolaan Lingkungan | P1-02, P0-07 | Copy approved, hierarchy jelas, dan reflow stabil | DONE |
 | P2-04 | About | P0-07 | Konten approved dan mudah dibaca | DONE |
 | P2-05 | Services | P0-02, P0-07 | Hierarchy mengikuti prioritas layanan | IN PROGRESS |
-| P2-06 | Our Approach | P0-03 | Alur sesuai proses nyata | TODO |
+| P2-06 | Fokus Pengelolaan | P0-07 | Copy disetujui dan tidak menjanjikan hasil yang tidak dapat dijamin | IN PROGRESS |
 | P2-07 | Expertise | P0-04 | Hanya sektor yang sudah dikonfirmasi | TODO |
-| P2-08 | Contact dan Footer | P0-05, P0-07 | CTA dan informasi kontak berfungsi | TODO |
+| P2-08 | Contact dan Footer | P0-05, P0-07 | CTA dan informasi kontak berfungsi | IN PROGRESS |
 | P2-09 | Metadata dan structured data | P0-09, P1-02 | Head metadata akurat dan JSON-LD hanya memakai data approved | TODO |
 
 Catatan 2026-11-04: P2-01 dan P2-02 tetap `IN PROGRESS` karena navigasi dan section lanjutan belum dibangun. State header overlay, state header setelah scroll, hero 1280 x 720, serta reflow compact sampai wide sudah diverifikasi.
@@ -80,6 +80,22 @@ Catatan 2026-11-05: P2-05 Services mulai dieksekusi memakai empat kelompok layan
 
 Catatan 2026-11-05: revisi P2-05 diverifikasi pada wide 1280 x 720 dan compact 390 x 844. Progress 01–04, transisi layanan, reflow satu kolom, dan console lulus; tidak ada horizontal overflow. Task tetap `IN PROGRESS` sampai copy akhir diperiksa pemilik proyek.
 
+Catatan 2026-11-06: P2-06 mulai dieksekusi sebagai section `Fokus Pengelolaan` dengan headline `Dari rencana ke pelaksanaan.` Prototype baru memuat label, headline, dan supporting copy. Tiga poin hasil serta foto belum dimasukkan.
+
+Catatan 2026-11-06: tiga poin hasil P2-06 dimasukkan sebagai baris editorial bernomor dengan reveal per baris. Copy berstatus `REVIEW`; foto kegiatan belum dimasukkan karena aset publik belum tersedia.
+
+Catatan 2026-11-06: P2-06 diubah menjadi empat chapter normal-flow. Pembuka dan poin 01–03 masuk serta keluar secara reversible; setiap poin memiliki placeholder dokumentasi yang akan diganti foto DEA setelah aset dan izin publikasi tersedia.
+
+Catatan 2026-11-06: Contact ditambahkan sebagai penutup putih setelah `Fokus Pengelolaan`. Instagram, LinkedIn, email, dan WhatsApp memakai tombol ikon dengan tujuan nyata; URL Instagram diberikan pemilik proyek, sedangkan tiga kanal lain tetap berstatus `REVIEW` sampai pemeriksaan sebelum release. Footer final masih diperlukan sehingga P2-08 tetap `IN PROGRESS`.
+
+Catatan 2026-11-06: Contact direvisi menjadi daftar vertikal Instagram, LinkedIn, dan email. Nama akun tampil pada setiap baris, seluruh kanal memakai navy, dan WhatsApp dihapus dari tampilan. Kuning tetap terbatas pada garis transisi section.
+
+Catatan 2026-11-06: P2-01 selesai dengan empat tujuan nyata: Tentang, Layanan, Fokus, dan Kontak. Desktop memakai daftar horizontal; compact memakai tombol `Menu`. P3-02 diverifikasi untuk buka/tutup, pemilihan link, klik di luar, Escape, pengembalian fokus, state `aria-expanded`, target 44 px, dan reflow 390, 768, serta 1280 px.
+
+Catatan 2026-11-06: Footer ditambahkan dengan surface navy, logo sementara monokrom putih, label kecil `Navigation` di atas daftar empat section yang tersedia, tombol ikon email, Instagram, dan LinkedIn, serta copyright pada baris paling bawah. Asset logo putih final masih menunggu sehingga P2-08 tetap `IN PROGRESS` bersama verifikasi akhir kanal kontak.
+
+Catatan 2026-11-06: baris legal Footer ditambah tautan `Part of Arara Semesta Group` menuju `https://ararasemestagroup.id`. Tautan tersusun di bawah copyright pada compact state dan sejajar pada medium/wide state, serta dibuka pada tab baru dengan proteksi `noopener noreferrer`.
+
 Catatan 2026-11-05: copy P2-04 About disusun sebagai `DRAFT` dari company profile dan materi yang diberikan pemilik proyek. Source belum diubah sampai heading, dua paragraf, dan prinsip kerja disetujui.
 
 Catatan 2026-11-05: P2-04 selesai dieksekusi setelah pengguna meminta visualisasi langsung di source. About memakai surface soft blue, heading editorial, dua blok narasi, dan satu pernyataan prinsip kerja. Reflow 320 sampai 1440 px, reveal akhir, anchor setelah halaman stabil, kontrol yang tersedia, dan console telah diverifikasi.
@@ -89,7 +105,7 @@ Catatan 2026-11-05: P2-04 selesai dieksekusi setelah pengguna meminta visualisas
 | ID | Task | Dependensi | Acceptance criteria | Status |
 | --- | --- | --- | --- | --- |
 | P3-01 | Implementasikan signature hero dan aksen kuning | P2-01 sampai P2-07 | Visual terpilih konsisten dan tidak berlebihan | IN PROGRESS |
-| P3-02 | Mobile menu | P2-01 | Buka, tutup, Escape, focus, dan state ARIA benar | TODO |
+| P3-02 | Mobile menu | P2-01 | Buka, tutup, Escape, focus, dan state ARIA benar | DONE |
 | P3-03 | Active navigation | P2-01 | State aktif sesuai section dan tidak mengganggu keyboard | TODO |
 | P3-04 | Scroll reveal | P2-02 sampai P2-07 | Hanya elemen terpilih bergerak | IN PROGRESS |
 | P3-05 | Approach line progress | P2-05, P3-01 | Horizontal di wide dan vertikal di compact | TODO |

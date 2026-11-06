@@ -164,6 +164,19 @@ Poin tersebut masih berupa klaim perusahaan. Copy final sebaiknya menjelaskan bu
 
 ## 10. Kontak dan Lokasi
 
+### Carrd resmi yang ditautkan dari LinkedIn, diperiksa 6 November 2026
+
+- Email: `denviroabadi@gmail.com`
+- Kontak layanan dan kerja sama: `+62 853-4810-4830`
+- Tautan WhatsApp: `https://wa.me/6285348104830`
+
+Data ini berasal dari halaman Carrd DEA yang ditautkan oleh akun LinkedIn perusahaan. Statusnya masih `REVIEW` sampai perusahaan memastikan bahwa email dan nomor tersebut memang menjadi kanal publik website baru. Carrd juga memuat satu tautan WhatsApp tanpa kode negara yang tidak dipakai karena formatnya tidak lengkap.
+
+### Profil perusahaan
+
+- LinkedIn: `https://id.linkedin.com/company/denviroabadi`
+- Instagram: `https://www.instagram.com/denviroabadi`, diberikan langsung oleh pemilik proyek pada 6 November 2026.
+
 ### LinkedIn, kandidat alamat operasional terkini
 
 - Plaza Kuningan, Menara Utara lantai 3 No. 309, Jakarta 12940
@@ -198,6 +211,7 @@ LinkedIn dan website lama menampilkan alamat yang berbeda. Plaza Kuningan menjad
 | Jumlah klien | Website menyebut 23+ klien, LinkedIn menyebut 50+ perusahaan, company profile memberi angka per layanan | Tentukan angka terbaru, definisi, dan periodenya |
 | Jumlah proyek | Website menyebut 23+ proyek, company profile memberi angka per kategori | Tentukan apakah angka menunjukkan klien, proyek, atau pekerjaan |
 | Alamat | Website memakai Jl. Biak, LinkedIn memakai Plaza Kuningan | Tentukan alamat legal dan alamat operasional yang dipublikasikan |
+| Kontak publik | Website lama memakai email domain dan nomor Octaviannie; Carrd terbaru memakai Gmail dan nomor layanan yang berbeda | Konfirmasi email serta nomor utama sebelum release |
 | Cakupan wilayah | LinkedIn menyebut layanan di seluruh Indonesia | Konfirmasi apakah klaim cakupan nasional boleh digunakan |
 | Sertifikasi | LinkedIn memakai istilah certified environmental consultant | Cantumkan hanya jika sertifikat dan pemegangnya dapat diverifikasi |
 

@@ -354,6 +354,82 @@ Catat keputusan yang memengaruhi scope, desain, arsitektur, atau operasional pro
 - Dampak: progress Services berubah menjadi 01–04. Istilah `Pengolahan Sampah menjadi Energi Listrik` dihapus dari website. Materi Waste-to-Energy tetap disimpan sebagai referensi internal dan baru dapat dipakai sebagai pengalaman proyek setelah dikonfirmasi.
 - Menggantikan: `D-041`
 
+### D-043: Outcome-focused section after Services
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-05`
+- Keputusan: section setelah Services memakai label `Fokus Pengelolaan` dan headline `Dari rencana ke pelaksanaan.` Section menjelaskan kewajiban, pengelolaan, serta pemantauan sebagai arah hasil tanpa KPI numerik atau alur pendampingan internal.
+- Alasan: angka rekam jejak belum memiliki definisi dan periode yang cukup jelas, sedangkan alur pendampingan dapat berbeda antar layanan serta menyentuh proses internal klien.
+- Dampak: label, headline, dan supporting copy dieksekusi lebih dulu pada prototype lokal. Tiga poin lanjutan dan foto kegiatan menunggu pemeriksaan berikutnya.
+
+### D-044: Brand navy for Fokus Pengelolaan
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-06`
+- Keputusan: surface section `Fokus Pengelolaan` memakai navy utama DEA `#336699`, bukan navy deep `#183C5C`.
+- Alasan: navy deep terasa terlalu gelap dan kurang selaras dengan warna biru pada identitas visual DEA.
+- Dampak: label dan supporting copy memakai tingkat putih yang lebih tinggi agar hierarchy tetap jelas dan kontras teks memenuhi baseline aksesibilitas.
+
+### D-045: Editorial outcome rows for Fokus Pengelolaan
+
+- Status: `SUPERSEDED`
+- Tanggal: `2026-11-06`
+- Keputusan: tiga poin hasil pada section `Fokus Pengelolaan` ditampilkan sebagai baris editorial bernomor, bukan card, KPI, atau alur proses internal.
+- Alasan: urutan kewajiban, pengelolaan, dan pemantauan perlu terbaca sebagai kelanjutan narasi tanpa memberi kesan proses yang kaku atau hasil yang dijamin.
+- Dampak: setiap baris masuk saat mencapai viewport. Foto kegiatan tetap ditunda sampai aset yang aman untuk publikasi tersedia.
+
+### D-046: Individual scroll chapters for Fokus Pengelolaan
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-06`
+- Keputusan: pembuka dan tiga poin hasil pada `Fokus Pengelolaan` menjadi empat chapter normal-flow yang muncul satu per satu. Setiap chapter hasil memiliki ruang dokumentasi sendiri tanpa sticky scene atau scroll-jacking.
+- Alasan: satu gagasan per chapter memberi waktu baca yang lebih nyaman, membedakan motion dari section sebelumnya, dan menyiapkan konteks untuk dokumentasi kegiatan DEA.
+- Dampak: desktop memakai komposisi nomor, copy, dan dokumentasi dalam tiga kolom. Mobile menyusun semuanya dalam normal flow. Placeholder tetap terlihat sebagai materi sementara sampai foto berizin tersedia.
+- Menggantikan: `D-045`
+
+### D-047: Direct contact close with icon channels
+
+- Status: `SUPERSEDED`
+- Tanggal: `2026-11-06`
+- Keputusan: Contact menutup narasi pada surface putih dengan headline `Mulai dari kebutuhan lingkungan kegiatan Anda.` dan empat kanal berbentuk tombol ikon: Instagram, LinkedIn, email, dan WhatsApp. Instagram memakai URL yang diberikan pemilik proyek; tiga kanal lain memakai tujuan publik yang dapat ditelusuri dari kanal resmi DEA.
+- Alasan: penutup perlu mengajak percakapan secara umum tanpa membatasi DEA pada istilah `pendampingan` atau satu jenis layanan. Bentuk ikon menjaga komposisi ringkas dan seluruh kontrol memiliki tujuan nyata.
+- Dampak: setiap kanal aktif memiliki nama aksesibel, state hover/fokus, dan tujuan nyata. WhatsApp memakai aksen kuning sebagai prioritas visual. Tidak ada form kontak atau alamat yang belum dikonfirmasi.
+- Menggantikan: arah visual Contact pada `DESIGN.md` yang sebelumnya memakai background biru penuh dan satu CTA.
+- Digantikan oleh: `D-048`
+
+### D-048: Vertical contact list without WhatsApp
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-06`
+- Keputusan: Contact memakai tiga baris vertikal untuk Instagram, LinkedIn, dan email. Setiap baris memuat ikon yang relevan serta nama akun atau alamat. WhatsApp dihapus dari tampilan.
+- Alasan: nama akun membuat tujuan setiap kanal terbaca tanpa mengandalkan pengenalan ikon. Navy menyatukan tiga kanal, sedangkan kuning tetap eksklusif sebagai motif garis transisi DEA agar hierarchy warna tidak berlebihan.
+- Dampak: seluruh baris menjadi target klik penuh dengan state hover, aktif, dan fokus. Instagram menampilkan `@denviroabadi`, LinkedIn menampilkan `PT Dinamika Enviro Abadi`, dan email menampilkan `denviroabadi@gmail.com`.
+- Menggantikan: `D-047`
+
+### D-049: Navigation limited to implemented sections
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-06`
+- Keputusan: navigasi utama memuat Tentang, Layanan, Fokus, dan Kontak. Setiap item menuju section yang sudah tersedia; tidak ada CTA tambahan atau item menuju konten yang belum dibangun.
+- Alasan: daftar yang ringkas menjaga header tetap tenang dan membuat seluruh kontrol langsung berguna pada tahap prototype saat ini.
+- Dampak: desktop memakai navigasi horizontal. Compact memakai tombol teks `Menu` dengan state ARIA serta perilaku tutup melalui tombol, pemilihan link, klik di luar, dan tombol Escape. Label menunggu pemeriksaan pengguna pada status `REVIEW` di dokumen konten.
+
+### D-050: Compact navy footer
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-06`
+- Keputusan: footer memakai background navy DEA dengan logo, label kecil `Navigation` di atas daftar vertikal Tentang/Layanan/Fokus/Kontak, tiga tombol ikon untuk email, Instagram, serta LinkedIn, dan copyright pada baris paling bawah. Tidak ada WhatsApp, alamat, atau kelompok link tambahan pada prototype.
+- Alasan: footer cukup menutup halaman dan menyediakan jalan kembali serta kanal kontak utama tanpa mengulang pola footer empat kolom atau isi Contact.
+- Dampak: logo utama dirender monokrom putih melalui CSS sampai asset logo terang tersedia. Copyright memakai legal name yang telah disetujui dan tahun 2026. Seluruh link memiliki tujuan nyata, nama aksesibel, dan target sentuh minimal 44 piksel.
+
+### D-051: Group affiliation link in footer
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-06`
+- Keputusan: baris legal Footer menambahkan tautan `Part of Arara Semesta Group` menuju `https://ararasemestagroup.id`.
+- Alasan: afiliasi DEA dengan grup perlu terlihat jelas tanpa menambah kelompok konten baru atau mengganggu navigasi utama Footer.
+- Dampak: pada compact state tautan berada di bawah copyright; pada medium dan wide state keduanya sejajar. Tautan dibuka pada tab baru dengan `noopener noreferrer` dan target sentuh minimal 44 piksel.
+
 ## Decision Template
 
 ### D-XXX: Title
