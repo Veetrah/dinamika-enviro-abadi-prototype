@@ -98,6 +98,8 @@ Catatan 2026-11-06: baris legal Footer ditambah tautan `Part of Arara Semesta Gr
 
 Catatan 2026-11-06: GitHub Pages disiapkan sebagai preview prototype publik untuk review tim teknis. Workflow hanya mengunggah folder `site/`, memakai action resmi GitHub, dan mempertahankan meta `noindex, nofollow`. Preview ini bukan production dan tidak mengubah proses development serta QA yang tetap local-first.
 
+Catatan 2026-11-06: preview berhasil dideploy dari revision `cb248ae89bcb553485f59eab75ae58ffd685ba06` ke `https://veetrah.github.io/dinamika-enviro-abadi-prototype/`. Workflow selesai dengan status sukses; homepage, CSS, JavaScript, dan logo SVG mengembalikan HTTP 200. Status hanya `READY FOR TECHNICAL REVIEW`, bukan production release.
+
 Catatan 2026-11-05: copy P2-04 About disusun sebagai `DRAFT` dari company profile dan materi yang diberikan pemilik proyek. Source belum diubah sampai heading, dua paragraf, dan prinsip kerja disetujui.
 
 Catatan 2026-11-05: P2-04 selesai dieksekusi setelah pengguna meminta visualisasi langsung di source. About memakai surface soft blue, heading editorial, dua blok narasi, dan satu pernyataan prinsip kerja. Reflow 320 sampai 1440 px, reveal akhir, anchor setelah halaman stabil, kontrol yang tersedia, dan console telah diverifikasi.

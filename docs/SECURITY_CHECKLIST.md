@@ -10,10 +10,10 @@ Checklist ini digunakan sebelum deployment dan diulang setelah perubahan hosting
 - [ ] Workflow deployment hanya dapat diubah oleh owner yang berwenang.
 - [ ] Tidak ada secret, token, API key, credential, atau file akun dalam repository.
 - [ ] Tidak ada secret pada HTML, CSS, JavaScript, comment, source map, atau asset metadata.
-- [ ] Semua dependency dan third-party asset tercatat beserta versi dan sumbernya.
+- [x] Semua dependency workflow GitHub Pages tercatat beserta versi dan sumbernya pada `docs/DEPLOYMENT.md`.
 - [ ] Tidak ada dependency runtime jika kebutuhan dapat diselesaikan dengan platform web.
-- [ ] Diff release sudah diperiksa sebelum deployment.
-- [ ] Hosting hanya mempublikasikan `site/`, bukan root project atau folder `docs/`.
+- [x] Diff preview release sudah diperiksa sebelum deployment.
+- [x] Hosting hanya mempublikasikan `site/`, bukan root project atau folder `docs/`.
 
 ## 2. Client-Side Code
 
@@ -104,13 +104,13 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 ## 8. Deployment and Recovery
 
-- [ ] Deployment revision dapat diidentifikasi.
-- [ ] Deployment log dapat dibaca owner.
+- [x] Deployment revision dapat diidentifikasi.
+- [x] Deployment log tersedia pada GitHub Actions run `42186437346`.
 - [ ] Rollback ke revision sebelumnya sudah diuji.
-- [ ] Backup source berada di version control dan tidak bergantung pada satu laptop.
+- [x] Backup source berada di version control dan tidak bergantung pada satu laptop.
 - [ ] Credential deployment dapat dicabut tanpa memindahkan domain.
-- [ ] Perubahan header atau hosting dicatat pada decision log.
-- [ ] Website diperiksa ulang setelah deployment, bukan hanya sebelum upload.
+- [x] Perubahan hosting dicatat pada decision log.
+- [x] Website diperiksa ulang setelah deployment; homepage, CSS, JavaScript, dan logo SVG mengembalikan HTTP 200.
 
 ## 9. Privacy
 
@@ -135,6 +135,7 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 | Tanggal | Environment | Revision | Pemeriksa | Status | Catatan |
 | --- | --- | --- | --- | --- | --- |
+| 2026-11-06 | PREVIEW | `cb248ae89bcb553485f59eab75ae58ffd685ba06` | Astra | PASS TERBATAS | GitHub Pages HTTPS; artifact hanya `site/`; homepage, CSS, JavaScript, dan logo SVG HTTP 200; `noindex, nofollow`; security headers production dan rollback belum diuji |
 | `[YYYY-MM-DD]` | `[STAGING / PRODUCTION]` | `[REVISION]` | `[NAME]` | `[PASS / BLOCKED]` | `[NOTE]` |
 
 ## References

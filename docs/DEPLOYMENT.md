@@ -40,7 +40,7 @@ Fitur seperti serverless function, database, CMS, dan edge compute tidak menjadi
 | Account owner | `[NEEDED]` | NEEDED |
 | Backup owner | `[NEEDED]` | NEEDED |
 | Production domain | `[NEEDED]` | NEEDED |
-| Preview domain | `https://veetrah.github.io/dinamika-enviro-abadi-prototype/` | VERIFY AFTER DEPLOY |
+| Preview domain | `https://veetrah.github.io/dinamika-enviro-abadi-prototype/` | ACTIVE |
 | DNS provider | `[NEEDED]` | NEEDED |
 | Deployment method | GitHub Actions; artifact hanya dari `site/` | APPROVED FOR PREVIEW |
 | Rollback method | `[NEEDED]` | NEEDED |
@@ -203,16 +203,16 @@ Rollback harus diuji sebelum release pertama, bukan pertama kali dicoba saat web
 
 | Field | Value |
 | --- | --- |
-| Version | `[VERSION]` |
-| Revision | `[REVISION]` |
-| Preview URL | `[URL]` |
-| Production URL | `[URL]` |
-| Deployed at | `[YYYY-MM-DD HH:mm WIB]` |
-| Deployed by | `[NAME]` |
-| Previous revision | `[REVISION]` |
-| Rollback target | `[REVISION]` |
-| Status | `[READY / ROLLED BACK / BLOCKED]` |
-| Notes | `[NOTE]` |
+| Version | `prototype-preview-001` |
+| Revision | `cb248ae89bcb553485f59eab75ae58ffd685ba06` |
+| Preview URL | `https://veetrah.github.io/dinamika-enviro-abadi-prototype/` |
+| Production URL | Belum ditetapkan; preview ini bukan production |
+| Deployed at | `2026-11-06 15:16 WIB` |
+| Deployed by | GitHub Actions |
+| Previous revision | `7c9e5e9` |
+| Rollback target | `7c9e5e9` — belum diuji |
+| Status | `READY FOR TECHNICAL REVIEW` |
+| Notes | Workflow run `42186437346`; homepage, CSS, JavaScript, dan logo SVG mengembalikan HTTP 200; preview tetap `noindex, nofollow` |
 
 ## 13. Maintenance Cadence
 

@@ -24,6 +24,7 @@ Evidence:
 2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk header dan navigasi. Empat link menuju section yang tersedia; desktop menampilkan daftar horizontal, sedangkan compact memakai tombol Menu. Buka/tutup, klik link, klik luar, Escape, pengembalian fokus, state ARIA, target sentuh, dan overflow diverifikasi pada 390 x 844, 768 x 900, dan 1280 x 720. Console tidak memiliki warning atau error.
 2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk Footer. Surface navy, logo sementara monokrom putih, label Navigation, empat link internal, tiga tombol ikon kontak, serta copyright tampil pada compact, medium, dan wide tanpa overflow atau collision. Seluruh target berukuran minimal 44 piksel, urutan keyboard sesuai urutan visual, focus ring kuning terlihat pada surface navy, dan console bersih. Putih pada navy terukur 6.00:1; kuning pada navy terukur 4.08:1.
 2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk tautan afiliasi Footer. `Part of Arara Semesta Group` mengarah ke `https://ararasemestagroup.id`, memakai `target="_blank"` dan `rel="noopener noreferrer"`. Link berada di bawah copyright pada compact state dan sejajar di sisi kanan pada medium/wide state. Target terukur 44 piksel, urutan keyboard berada setelah LinkedIn, focus ring kuning terlihat, console bersih, dan tidak ada horizontal overflow pada 390 x 844, 768 x 900, maupun 1280 x 720.
+2026-11-06 GitHub Pages, https://veetrah.github.io/dinamika-enviro-abadi-prototype/, PASS TERBATAS untuk akses preview publik revision `cb248ae89bcb553485f59eab75ae58ffd685ba06`. Workflow selesai sukses; homepage, CSS, JavaScript, dan logo SVG mengembalikan HTTP 200; HTML memuat title prototype dan meta `noindex, nofollow`. Visual dan interaction QA mengacu pada pemeriksaan lokal revision sebelumnya; live browser pass belum diulang.
 ```
 
 ## 2. Content Integrity
@@ -201,10 +202,10 @@ Security verification record:
 
 | Field | Isi |
 | --- | --- |
-| Candidate version | `[VERSION]` |
-| Commit / revision | `[REVISION]` |
-| Tested on | `[DATE]` |
-| Tested by | `[NAME]` |
-| Known limitations | `[NONE OR LIST]` |
-| Final status | `[READY / BLOCKED]` |
+| Candidate version | `prototype-preview-001` |
+| Commit / revision | `cb248ae89bcb553485f59eab75ae58ffd685ba06` |
+| Tested on | `2026-11-06` |
+| Tested by | Astra |
+| Known limitations | Konten dan aset final belum lengkap; security headers production, canonical, robots, sitemap, custom 404, dan rollback belum diuji |
+| Final status | `READY FOR TECHNICAL REVIEW` |
 
