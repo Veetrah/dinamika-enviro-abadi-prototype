@@ -26,6 +26,7 @@ Evidence:
 2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk tautan afiliasi Footer. `Part of Arara Semesta Group` mengarah ke `https://ararasemestagroup.id`, memakai `target="_blank"` dan `rel="noopener noreferrer"`. Link berada di bawah copyright pada compact state dan sejajar di sisi kanan pada medium/wide state. Target terukur 44 piksel, urutan keyboard berada setelah LinkedIn, focus ring kuning terlihat, console bersih, dan tidak ada horizontal overflow pada 390 x 844, 768 x 900, maupun 1280 x 720.
 2026-11-06 GitHub Pages, https://veetrah.github.io/dinamika-enviro-abadi-prototype/, PASS TERBATAS untuk akses preview publik revision `cb248ae89bcb553485f59eab75ae58ffd685ba06`. Workflow selesai sukses; homepage, CSS, JavaScript, dan logo SVG mengembalikan HTTP 200; HTML memuat title prototype dan meta `noindex, nofollow`. Visual dan interaction QA mengacu pada pemeriksaan lokal revision sebelumnya; live browser pass belum diulang.
 2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk perubahan email publik. Contact dan Footer memakai `mailto:contact@denviroabadi.co.id` dengan accessible name yang sesuai. Alamat terlihat lengkap pada compact state, `overflow-wrap: anywhere` aktif, tidak ada horizontal overflow pada 390 x 844 maupun 1280 x 720, dan console bersih.
+2026-11-06 GitHub Pages, https://veetrah.github.io/dinamika-enviro-abadi-prototype/, PASS untuk deployment perubahan email revision `7ed25010307a96a566ff6fbb785ce45ac5246189`. Workflow `42188551649` selesai sukses; homepage HTTP 200; email dan `mailto:` baru ditemukan pada HTML publik; alamat Gmail lama tidak ditemukan.
 ```
 
 ## 2. Content Integrity
@@ -203,8 +204,8 @@ Security verification record:
 
 | Field | Isi |
 | --- | --- |
-| Candidate version | `prototype-preview-001` |
-| Commit / revision | `cb248ae89bcb553485f59eab75ae58ffd685ba06` |
+| Candidate version | `prototype-preview-002` |
+| Commit / revision | `7ed25010307a96a566ff6fbb785ce45ac5246189` |
 | Tested on | `2026-11-06` |
 | Tested by | Astra |
 | Known limitations | Konten dan aset final belum lengkap; security headers production, canonical, robots, sitemap, custom 404, dan rollback belum diuji |

@@ -203,16 +203,16 @@ Rollback harus diuji sebelum release pertama, bukan pertama kali dicoba saat web
 
 | Field | Value |
 | --- | --- |
-| Version | `prototype-preview-001` |
-| Revision | `cb248ae89bcb553485f59eab75ae58ffd685ba06` |
+| Version | `prototype-preview-002` |
+| Revision | `7ed25010307a96a566ff6fbb785ce45ac5246189` |
 | Preview URL | `https://veetrah.github.io/dinamika-enviro-abadi-prototype/` |
 | Production URL | Belum ditetapkan; preview ini bukan production |
-| Deployed at | `2026-11-06 15:16 WIB` |
+| Deployed at | `2026-11-06 15:34 WIB` |
 | Deployed by | GitHub Actions |
-| Previous revision | `7c9e5e9` |
-| Rollback target | `7c9e5e9` — belum diuji |
+| Previous revision | `cb248ae89bcb553485f59eab75ae58ffd685ba06` |
+| Rollback target | `cb248ae89bcb553485f59eab75ae58ffd685ba06` — belum diuji |
 | Status | `READY FOR TECHNICAL REVIEW` |
-| Notes | Workflow run `42186437346`; homepage, CSS, JavaScript, dan logo SVG mengembalikan HTTP 200; preview tetap `noindex, nofollow` |
+| Notes | Workflow run `42188551649`; homepage mengembalikan HTTP 200; email dan `mailto:` baru tampil; alamat lama tidak lagi berada pada HTML publik; preview tetap `noindex, nofollow` |
 
 ## 13. Maintenance Cadence
 

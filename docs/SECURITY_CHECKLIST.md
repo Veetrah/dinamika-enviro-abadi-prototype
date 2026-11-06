@@ -135,6 +135,7 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 | Tanggal | Environment | Revision | Pemeriksa | Status | Catatan |
 | --- | --- | --- | --- | --- | --- |
+| 2026-11-06 | PREVIEW | `7ed25010307a96a566ff6fbb785ce45ac5246189` | Astra | PASS TERBATAS | Workflow sukses; homepage HTTP 200; email publik baru dan `mailto:` sesuai; alamat lama tidak berada pada HTML publik; security headers production dan rollback belum diuji |
 | 2026-11-06 | PREVIEW | `cb248ae89bcb553485f59eab75ae58ffd685ba06` | Astra | PASS TERBATAS | GitHub Pages HTTPS; artifact hanya `site/`; homepage, CSS, JavaScript, dan logo SVG HTTP 200; `noindex, nofollow`; security headers production dan rollback belum diuji |
 | `[YYYY-MM-DD]` | `[STAGING / PRODUCTION]` | `[REVISION]` | `[NAME]` | `[PASS / BLOCKED]` | `[NOTE]` |
 

@@ -102,6 +102,8 @@ Catatan 2026-11-06: preview berhasil dideploy dari revision `cb248ae89bcb553485f
 
 Catatan 2026-11-06: email publik pada Contact dan Footer diganti dari alamat Gmail menjadi `contact@denviroabadi.co.id` sesuai instruksi pemilik proyek. Teks, accessible name, dan tujuan `mailto:` diperbarui bersama.
 
+Catatan 2026-11-06: perubahan email berhasil dideploy dari revision `7ed25010307a96a566ff6fbb785ce45ac5246189`. Preview publik mengembalikan HTTP 200, menampilkan email dan `mailto:` baru, serta tidak lagi memuat alamat Gmail lama.
+
 Catatan 2026-11-05: copy P2-04 About disusun sebagai `DRAFT` dari company profile dan materi yang diberikan pemilik proyek. Source belum diubah sampai heading, dua paragraf, dan prinsip kerja disetujui.
 
 Catatan 2026-11-05: P2-04 selesai dieksekusi setelah pengguna meminta visualisasi langsung di source. About memakai surface soft blue, heading editorial, dua blok narasi, dan satu pernyataan prinsip kerja. Reflow 320 sampai 1440 px, reveal akhir, anchor setelah halaman stabil, kontrol yang tersedia, dan console telah diverifikasi.
