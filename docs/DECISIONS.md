@@ -439,6 +439,15 @@ Catat keputusan yang memengaruhi scope, desain, arsitektur, atau operasional pro
 - Dampak: push perubahan `site/` ke `main` memicu deployment preview. Preview tetap memakai `noindex, nofollow`; dokumen internal di root tidak masuk artifact; production domain, security headers penuh, DNS, dan release approval tetap belum ditetapkan.
 - Menggantikan: larangan GitHub Pages dan deployment otomatis pada `D-032`; prinsip local-first untuk development dan QA tetap berlaku.
 
+### D-053: Public contact email
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-06`
+- Keputusan: kanal email publik pada Contact dan Footer menggunakan `contact@denviroabadi.co.id`.
+- Alasan: alamat tersebut diberikan langsung oleh pemilik proyek sebagai pengganti alamat Gmail yang sebelumnya dipakai pada prototype.
+- Dampak: teks terlihat, accessible name, dan tujuan `mailto:` memakai alamat baru. Catatan email lama tetap berada pada materi sumber historis, tetapi tidak digunakan oleh halaman publik.
+- Menggantikan: alamat email pada dampak `D-048`.
+
 ## Decision Template
 
 ### D-XXX: Title

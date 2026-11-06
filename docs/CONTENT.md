@@ -177,7 +177,7 @@ Kehutanan, infrastruktur, dan industri hanya contoh dari diskusi awal. Jangan ta
 | Heading | Mulai dari kebutuhan lingkungan kegiatan Anda. | APPROVED | Pemilik proyek, 2026-11-06 |
 | Supporting copy | DEA membantu memahami konteks kegiatan dan menelaah kebutuhan sebelum menentukan langkah yang relevan. | APPROVED | Pemilik proyek, 2026-11-06 |
 | LinkedIn | `https://id.linkedin.com/company/denviroabadi` | REVIEW | Profil perusahaan aktif; verifikasi ulang sebelum release |
-| Email | `denviroabadi@gmail.com` | REVIEW | Carrd resmi yang ditautkan dari LinkedIn; kirim email percobaan sebelum release |
+| Email | `contact@denviroabadi.co.id` | APPROVED | Diberikan langsung oleh pemilik proyek, 2026-11-06 |
 | WhatsApp | `+62 853-4810-4830` / `https://wa.me/6285348104830` | NOT USED | Tidak ditampilkan pada Contact sesuai keputusan pemilik proyek, 2026-11-06 |
 | Instagram | `https://www.instagram.com/denviroabadi` | APPROVED | URL diberikan pemilik proyek, 2026-11-06 |
 | Telepon | `[OPTIONAL]` | NEEDED | Panggilan percobaan |
@@ -229,4 +229,5 @@ Metadata harus merangkum konten yang sudah disetujui. Jangan memasukkan layanan,
 | 2026-11-06 | Fokus Pengelolaan | Pembuka dan tiga poin hasil dipecah menjadi chapter scroll terpisah agar setiap gagasan mudah dibaca dan siap menampung dokumentasi kegiatan | Pemilik proyek |
 | 2026-11-06 | Footer | Surface navy, label Navigation, empat link internal, tiga tombol ikon kontak, dan copyright disetujui untuk prototype | Pemilik proyek |
 | 2026-11-06 | Footer | Tautan `Part of Arara Semesta Group` menuju website resmi ASG ditambahkan pada baris legal paling bawah | Pemilik proyek |
+| 2026-11-06 | Contact | Email publik website diganti menjadi `contact@denviroabadi.co.id` | Pemilik proyek |
 

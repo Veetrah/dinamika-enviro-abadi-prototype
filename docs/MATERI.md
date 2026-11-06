@@ -164,6 +164,12 @@ Poin tersebut masih berupa klaim perusahaan. Copy final sebaiknya menjelaskan bu
 
 ## 10. Kontak dan Lokasi
 
+### Kanal email website baru, dikonfirmasi pemilik proyek 6 November 2026
+
+- Email publik: `contact@denviroabadi.co.id`
+
+Email ini menjadi rujukan utama untuk website baru. Data kontak pada Carrd dan website lama di bawah dipertahankan sebagai catatan sumber historis, bukan kanal aktif prototype.
+
 ### Carrd resmi yang ditautkan dari LinkedIn, diperiksa 6 November 2026
 
 - Email: `denviroabadi@gmail.com`

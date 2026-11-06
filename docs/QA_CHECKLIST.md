@@ -25,6 +25,7 @@ Evidence:
 2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk Footer. Surface navy, logo sementara monokrom putih, label Navigation, empat link internal, tiga tombol ikon kontak, serta copyright tampil pada compact, medium, dan wide tanpa overflow atau collision. Seluruh target berukuran minimal 44 piksel, urutan keyboard sesuai urutan visual, focus ring kuning terlihat pada surface navy, dan console bersih. Putih pada navy terukur 6.00:1; kuning pada navy terukur 4.08:1.
 2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk tautan afiliasi Footer. `Part of Arara Semesta Group` mengarah ke `https://ararasemestagroup.id`, memakai `target="_blank"` dan `rel="noopener noreferrer"`. Link berada di bawah copyright pada compact state dan sejajar di sisi kanan pada medium/wide state. Target terukur 44 piksel, urutan keyboard berada setelah LinkedIn, focus ring kuning terlihat, console bersih, dan tidak ada horizontal overflow pada 390 x 844, 768 x 900, maupun 1280 x 720.
 2026-11-06 GitHub Pages, https://veetrah.github.io/dinamika-enviro-abadi-prototype/, PASS TERBATAS untuk akses preview publik revision `cb248ae89bcb553485f59eab75ae58ffd685ba06`. Workflow selesai sukses; homepage, CSS, JavaScript, dan logo SVG mengembalikan HTTP 200; HTML memuat title prototype dan meta `noindex, nofollow`. Visual dan interaction QA mengacu pada pemeriksaan lokal revision sebelumnya; live browser pass belum diulang.
+2026-11-06 Chrome in-app browser, http://127.0.0.1:4174, PASS untuk perubahan email publik. Contact dan Footer memakai `mailto:contact@denviroabadi.co.id` dengan accessible name yang sesuai. Alamat terlihat lengkap pada compact state, `overflow-wrap: anywhere` aktif, tidak ada horizontal overflow pada 390 x 844 maupun 1280 x 720, dan console bersih.
 ```
 
 ## 2. Content Integrity
@@ -63,10 +64,10 @@ Click-through record:
 | Navigasi footer | Tentang, Layanan, Fokus, dan Kontak menuju section masing-masing | PASS | Chrome in-app, keyboard/mouse, 390 dan 768 px |
 | Ikon Instagram footer | Membuka `instagram.com/denviroabadi` pada tab baru | PASS, tujuan dan atribut tab baru terverifikasi | Chrome in-app, mouse/source, 390 px |
 | Ikon LinkedIn footer | Membuka profil perusahaan DEA pada tab baru | PASS, tujuan dan atribut tab baru terverifikasi | Chrome in-app, mouse/source, 390 px |
-| Ikon email footer | Membuka email baru ke `denviroabadi@gmail.com` | PASS melalui inspeksi source; klik protokol eksternal diblokir keamanan browser preview | Chrome in-app, keyboard/source, 390 px |
+| Ikon email footer | Membuka email baru ke `contact@denviroabadi.co.id` | PASS melalui inspeksi source dan local browser | Chrome in-app, keyboard/source, 390 px |
 | Instagram | Membuka `instagram.com/denviroabadi` pada tab baru | PASS, tujuan resmi terbuka | Chrome in-app, mouse/keyboard, 1280 px |
 | LinkedIn | Membuka profil perusahaan DEA pada tab baru | PASS, tujuan resmi terbuka | Chrome in-app, mouse/keyboard, 1280 px |
-| Email | Membuka email baru ke `denviroabadi@gmail.com` | PASS melalui inspeksi source; klik protokol eksternal diblokir keamanan browser preview | Chrome in-app, keyboard/source, 1280 px |
+| Email | Membuka email baru ke `contact@denviroabadi.co.id` | PASS melalui inspeksi source dan local browser | Chrome in-app, keyboard/source, 1280 px |
 
 ## 4. Responsive Layout
 
