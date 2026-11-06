@@ -7,7 +7,7 @@ Publish directory proyek adalah `site/`. Provider tidak boleh diarahkan ke root 
 ## 1. Deployment Goals
 
 - Selama fase development aktif, seluruh eksekusi dan QA dilakukan melalui local HTTP server.
-- GitHub hanya menyimpan riwayat versi dan bukan environment preview, staging, atau production.
+- GitHub menyimpan riwayat versi; GitHub Pages boleh digunakan sebagai preview prototype publik untuk review teknis, bukan production.
 - Deployment dapat diulang tanpa langkah manual yang tidak terdokumentasi.
 - Setiap release dapat ditelusuri ke revision source tertentu.
 - Website dapat dikembalikan ke revision sebelumnya dengan cepat.
@@ -35,13 +35,14 @@ Fitur seperti serverless function, database, CMS, dan edge compute tidak menjadi
 
 | Field | Value | Status |
 | --- | --- | --- |
-| Provider | `[NEEDED]` | NEEDED |
+| Provider production | `[NEEDED]` | NEEDED |
+| Provider preview prototype | GitHub Pages | APPROVED |
 | Account owner | `[NEEDED]` | NEEDED |
 | Backup owner | `[NEEDED]` | NEEDED |
 | Production domain | `[NEEDED]` | NEEDED |
-| Preview domain | `[NEEDED]` | NEEDED |
+| Preview domain | `https://veetrah.github.io/dinamika-enviro-abadi-prototype/` | VERIFY AFTER DEPLOY |
 | DNS provider | `[NEEDED]` | NEEDED |
-| Deployment method | `[NEEDED]` | NEEDED |
+| Deployment method | GitHub Actions; artifact hanya dari `site/` | APPROVED FOR PREVIEW |
 | Rollback method | `[NEEDED]` | NEEDED |
 | Log retention | `[NEEDED]` | NEEDED |
 
@@ -60,10 +61,21 @@ Keputusan provider dan alasan pemilihannya dicatat pada `docs/DECISIONS.md`.
 ### Preview / Staging
 
 - Digunakan untuk review sebelum production.
+- Prototype publik menggunakan GitHub Pages dan workflow `.github/workflows/deploy-pages.yml`.
+- Artifact deployment hanya berisi isi `site/`; root repository dan folder `docs/` tidak dipublish sebagai website.
 - Tidak boleh terindeks search engine.
 - Gunakan access control provider jika tersedia.
 - Jika preview dapat diakses publik, tambahkan `X-Robots-Tag: noindex, nofollow` atau meta robots setara.
 - Jangan mengandalkan `robots.txt` untuk menyembunyikan preview.
+
+Action resmi GitHub yang dipakai oleh workflow preview:
+
+| Action | Versi |
+| --- | --- |
+| `actions/checkout` | `v6` |
+| `actions/configure-pages` | `v5` |
+| `actions/upload-pages-artifact` | `v4` |
+| `actions/deploy-pages` | `v4` |
 
 ### Production
 

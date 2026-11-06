@@ -8,10 +8,10 @@ Threat model ini berlaku untuk website PT Dinamika Enviro Abadi versi pertama de
 Local workspace
       |
       v
-Source repository / deployment pipeline
+Source repository / GitHub Actions deployment pipeline
       |
       v
-Static hosting + TLS + security headers
+GitHub Pages preview + TLS
       |
       v
 Visitor browser -----> External email / WhatsApp link
@@ -71,6 +71,7 @@ Skala: `HIGH`, `MEDIUM`, `LOW` berdasarkan gabungan kemungkinan dan dampak untuk
 | T-13 | Dependency usang atau berbahaya | MEDIUM | Tanpa dependency runtime default, inventaris dan pin jika ditambah | LOW |
 | T-14 | Repository atau deployment rusak tanpa recovery | MEDIUM | Version control, backup, protected branch, rollback test | LOW |
 | T-15 | Spam atau abuse melalui form | LOW | Tidak ada form pada v1 | LOW |
+| T-16 | Workflow preview diubah untuk mempublish file di luar `site/` | HIGH | Workflow dibatasi ke artifact `site/`, perubahan workflow ditinjau, permissions minimum | LOW |
 
 ## 6. Controls by Boundary
 
@@ -88,6 +89,8 @@ Skala: `HIGH`, `MEDIUM`, `LOW` berdasarkan gabungan kemungkinan dan dampak untuk
 - Aktifkan MFA pada repository dan hosting.
 - Simpan deployment log dan revision yang sedang tayang.
 - Pastikan rollback ke revision sebelumnya pernah diuji.
+- Workflow GitHub Pages hanya mengunggah `site/` dan memakai permission `contents: read`, `pages: write`, serta `id-token: write`.
+- GitHub Pages diperlakukan sebagai preview prototype, bukan production, sampai domain, header, owner, dan release approval lengkap.
 
 ### Hosting to browser
 

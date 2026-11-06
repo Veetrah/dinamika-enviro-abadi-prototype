@@ -430,6 +430,15 @@ Catat keputusan yang memengaruhi scope, desain, arsitektur, atau operasional pro
 - Alasan: afiliasi DEA dengan grup perlu terlihat jelas tanpa menambah kelompok konten baru atau mengganggu navigasi utama Footer.
 - Dampak: pada compact state tautan berada di bawah copyright; pada medium dan wide state keduanya sejajar. Tautan dibuka pada tab baru dengan `noopener noreferrer` dan target sentuh minimal 44 piksel.
 
+### D-052: Public GitHub Pages prototype for technical review
+
+- Status: `LOCKED`
+- Tanggal: `2026-11-06`
+- Keputusan: repository publik memakai GitHub Pages sebagai preview prototype yang dapat dibagikan kepada tim teknis. Deployment dijalankan oleh GitHub Actions dari isi folder `site/` saja.
+- Alasan: pengguna membutuhkan URL publik untuk pelaporan dan review teknis tanpa menetapkan GitHub Pages sebagai hosting production DEA.
+- Dampak: push perubahan `site/` ke `main` memicu deployment preview. Preview tetap memakai `noindex, nofollow`; dokumen internal di root tidak masuk artifact; production domain, security headers penuh, DNS, dan release approval tetap belum ditetapkan.
+- Menggantikan: larangan GitHub Pages dan deployment otomatis pada `D-032`; prinsip local-first untuk development dan QA tetap berlaku.
+
 ## Decision Template
 
 ### D-XXX: Title

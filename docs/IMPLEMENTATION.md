@@ -96,6 +96,8 @@ Catatan 2026-11-06: Footer ditambahkan dengan surface navy, logo sementara monok
 
 Catatan 2026-11-06: baris legal Footer ditambah tautan `Part of Arara Semesta Group` menuju `https://ararasemestagroup.id`. Tautan tersusun di bawah copyright pada compact state dan sejajar pada medium/wide state, serta dibuka pada tab baru dengan proteksi `noopener noreferrer`.
 
+Catatan 2026-11-06: GitHub Pages disiapkan sebagai preview prototype publik untuk review tim teknis. Workflow hanya mengunggah folder `site/`, memakai action resmi GitHub, dan mempertahankan meta `noindex, nofollow`. Preview ini bukan production dan tidak mengubah proses development serta QA yang tetap local-first.
+
 Catatan 2026-11-05: copy P2-04 About disusun sebagai `DRAFT` dari company profile dan materi yang diberikan pemilik proyek. Source belum diubah sampai heading, dua paragraf, dan prinsip kerja disetujui.
 
 Catatan 2026-11-05: P2-04 selesai dieksekusi setelah pengguna meminta visualisasi langsung di source. About memakai surface soft blue, heading editorial, dua blok narasi, dan satu pernyataan prinsip kerja. Reflow 320 sampai 1440 px, reveal akhir, anchor setelah halaman stabil, kontrol yang tersedia, dan console telah diverifikasi.
